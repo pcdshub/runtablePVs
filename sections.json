@@ -1,0 +1,1368 @@
+{
+    "AMO": [
+        {
+            "PARAMS": [
+                {
+                    "descr": "pressure",
+                    "name": "AMO:HFP:GCC:01:PMON"
+                },
+                {
+                    "descr": "z-position",
+                    "name": "AMO:HFP:MMS:table.Z"
+                }
+            ],
+            "SECTION": "HFP",
+            "TITLE": "HFP"
+        },
+        {
+            "PARAMS": [
+                {
+                    "descr": "1",
+                    "name": "AMO:R14:IOC:10:ao0:out1"
+                },
+                {
+                    "descr": "",
+                    "name": "AMO:R14:IOC:10:VHS0:CH0:VoltageMeasure"
+                },
+                {
+                    "descr": "",
+                    "name": "AMO:R14:IOC:10:VHS0:CH1:VoltageMeasure"
+                },
+                {
+                    "descr": "",
+                    "name": "AMO:R14:IOC:10:VHS0:CH2:VoltageMeasure"
+                },
+                {
+                    "descr": "",
+                    "name": "AMO:R14:IOC:10:VHS0:CH3:VoltageMeasure"
+                },
+                {
+                    "descr": "",
+                    "name": "AMO:R14:IOC:10:VHS7:CH0:VoltageMeasure"
+                },
+                {
+                    "descr": "2",
+                    "name": "AMO:R14:IOC:10:ao0:out2"
+                },
+                {
+                    "descr": "",
+                    "name": "AMO:R14:IOC:10:VHS1:CH0:VoltageMeasure"
+                },
+                {
+                    "descr": "",
+                    "name": "AMO:R14:IOC:10:VHS1:CH1:VoltageMeasure"
+                },
+                {
+                    "descr": "",
+                    "name": "AMO:R14:IOC:10:VHS1:CH2:VoltageMeasure"
+                },
+                {
+                    "descr": "",
+                    "name": "AMO:R14:IOC:10:VHS1:CH3:VoltageMeasure"
+                },
+                {
+                    "descr": "",
+                    "name": "AMO:R14:IOC:10:VHS7:CH1:VoltageMeasure"
+                },
+                {
+                    "descr": "3",
+                    "name": "AMO:R14:IOC:10:ao0:out3"
+                },
+                {
+                    "descr": "",
+                    "name": "AMO:R14:IOC:10:VHS2:CH0:VoltageMeasure"
+                },
+                {
+                    "descr": "",
+                    "name": "AMO:R14:IOC:10:VHS2:CH1:VoltageMeasure"
+                },
+                {
+                    "descr": "",
+                    "name": "AMO:R14:IOC:10:VHS2:CH2:VoltageMeasure"
+                },
+                {
+                    "descr": "",
+                    "name": "AMO:R14:IOC:10:VHS2:CH3:VoltageMeasure"
+                },
+                {
+                    "descr": "",
+                    "name": "AMO:R14:IOC:10:VHS7:CH2:VoltageMeasure"
+                },
+                {
+                    "descr": "4",
+                    "name": "AMO:R14:IOC:10:ao0:out4"
+                },
+                {
+                    "descr": "",
+                    "name": "AMO:R14:IOC:10:VHS3:CH0:VoltageMeasure"
+                },
+                {
+                    "descr": "",
+                    "name": "AMO:R14:IOC:10:VHS3:CH1:VoltageMeasure"
+                },
+                {
+                    "descr": "",
+                    "name": "AMO:R14:IOC:10:VHS3:CH2:VoltageMeasure"
+                },
+                {
+                    "descr": "",
+                    "name": "AMO:R14:IOC:10:VHS3:CH3:VoltageMeasure"
+                },
+                {
+                    "descr": "",
+                    "name": "AMO:R14:IOC:10:VHS7:CH3:VoltageMeasure"
+                },
+                {
+                    "descr": "5",
+                    "name": "AMO:R14:IOC:10:ao0:out5"
+                },
+                {
+                    "descr": "",
+                    "name": "AMO:R14:IOC:10:VHS4:CH0:VoltageMeasure"
+                },
+                {
+                    "descr": "",
+                    "name": "AMO:R14:IOC:10:VHS4:CH1:VoltageMeasure"
+                },
+                {
+                    "descr": "",
+                    "name": "AMO:R14:IOC:10:VHS4:CH2:VoltageMeasure"
+                },
+                {
+                    "descr": "",
+                    "name": "AMO:R14:IOC:10:VHS4:CH3:VoltageMeasure"
+                },
+                {
+                    "descr": "",
+                    "name": "AMO:R14:IOC:10:VHS8:CH0:VoltageMeasure"
+                }
+            ],
+            "SECTION": "ETOF",
+            "TITLE": "eTOF"
+        },
+        {
+            "PARAMS": [
+                {
+                    "descr": "repeller",
+                    "name": "AMO:R14:IOC:21:VHS2:CH0:VoltageMeasure"
+                },
+                {
+                    "descr": "extractor",
+                    "name": "AMO:R14:IOC:21:VHS0:CH0:VoltageMeasure"
+                },
+                {
+                    "descr": "acceleration",
+                    "name": "AMO:R14:IOC:21:VHS0:CH1:VoltageMeasure"
+                },
+                {
+                    "descr": "MCP in",
+                    "name": "AMO:R14:IOC:21:VHS0:CH2:VoltageMeasure"
+                },
+                {
+                    "descr": "MCP out",
+                    "name": "AMO:R14:IOC:21:VHS2:CH2:VoltageMeasure"
+                },
+                {
+                    "descr": "Anode",
+                    "name": "AMO:R14:IOC:21:VHS2:CH1:VoltageMeasure"
+                }
+            ],
+            "SECTION": "ITOF",
+            "TITLE": "iTOF"
+        },
+        {
+            "PARAMS": [
+                {
+                    "descr": "pressure",
+                    "name": "AMO:HFP:GCC:03:PMON"
+                },
+                {
+                    "descr": "piezo voltage",
+                    "name": "AMO:R14:IOC:21:VHS7:CH0:VoltageMeasure"
+                },
+                {
+                    "descr": "piezo timing delay",
+                    "name": "AMO:R14:EVR:21:CTRL.DG2D"
+                },
+                {
+                    "descr": "piezo timing width",
+                    "name": "AMO:R14:EVR:21:CTRL.DG2W"
+                },
+                {
+                    "descr": "gasjet x-position (rel. distance)",
+                    "name": "AMO:HFP:MMS:72.RBV"
+                },
+                {
+                    "descr": "gasjet y-position (rel. distance)",
+                    "name": "AMO:HFP:MMS:71.RBV"
+                },
+                {
+                    "descr": "Gas Jet motor Z axis (mm)",
+                    "name": "AMO:HFP:MMS:73.RBV"
+                }
+            ],
+            "SECTION": "HFP_GAS",
+            "TITLE": "HFP Gas"
+        },
+        {
+            "PARAMS": [
+                {
+                    "descr": "pressure",
+                    "name": "AMO:DIA:GCC:01:PMON"
+                }
+            ],
+            "SECTION": "DIA",
+            "TITLE": "DIA"
+        },
+        {
+            "PARAMS": [
+                {
+                    "descr": "coil 1",
+                    "name": "AMO:DIA:SHC:11:I"
+                },
+                {
+                    "descr": "coil 2",
+                    "name": "AMO:DIA:SHC:12:I"
+                },
+                {
+                    "descr": "AMO:R15:IOC:40:VHS0:CH0:VoltageSet",
+                    "name": "AMO:R15:IOC:40:VHS0:CH0:VoltageSet"
+                },
+                {
+                    "descr": "AMO:R15:IOC:40:VHS0:CH1:VoltageSet",
+                    "name": "AMO:R15:IOC:40:VHS0:CH1:VoltageSet"
+                },
+                {
+                    "descr": "AMO:R15:IOC:40:VHS2:CH1:VoltageSet",
+                    "name": "AMO:R15:IOC:40:VHS2:CH1:VoltageSet"
+                },
+                {
+                    "descr": "AMO:R15:IOC:40:VHS2:CH2:VoltageSet",
+                    "name": "AMO:R15:IOC:40:VHS2:CH2:VoltageSet"
+                }
+            ],
+            "SECTION": "MBES",
+            "TITLE": "MBES"
+        }
+    ],
+    "CXI": [
+        {
+            "PARAMS": [
+                {
+                    "descr": "Undulator  1 X pos",
+                    "name": "USEG:UND1:150:XIN"
+                },
+                {
+                    "descr": "Undulator  2 X pos",
+                    "name": "USEG:UND1:250:XIN"
+                },
+                {
+                    "descr": "Undulator  3 X pos",
+                    "name": "USEG:UND1:350:XIN"
+                },
+                {
+                    "descr": "Undulator  4 X pos",
+                    "name": "USEG:UND1:450:XIN"
+                },
+                {
+                    "descr": "Undulator  5 X pos",
+                    "name": "USEG:UND1:550:XIN"
+                },
+                {
+                    "descr": "Undulator  6 X pos",
+                    "name": "USEG:UND1:650:XIN"
+                },
+                {
+                    "descr": "Undulator  7 X pos",
+                    "name": "USEG:UND1:750:XIN"
+                },
+                {
+                    "descr": "Undulator  8 X pos",
+                    "name": "USEG:UND1:850:XIN"
+                },
+                {
+                    "descr": "Undulator  9 X pos",
+                    "name": "USEG:UND1:950:XIN"
+                },
+                {
+                    "descr": "Undulator 10 X pos",
+                    "name": "USEG:UND1:1050:XIN"
+                },
+                {
+                    "descr": "Undulator 11 X pos",
+                    "name": "USEG:UND1:1150:XIN"
+                },
+                {
+                    "descr": "Undulator 12 X pos",
+                    "name": "USEG:UND1:1250:XIN"
+                },
+                {
+                    "descr": "Undulator 13 X pos",
+                    "name": "USEG:UND1:1350:XIN"
+                },
+                {
+                    "descr": "Undulator 14 X pos",
+                    "name": "USEG:UND1:1450:XIN"
+                },
+                {
+                    "descr": "Undulator 15 X pos",
+                    "name": "USEG:UND1:1550:XIN"
+                },
+                {
+                    "descr": "Undulator 16 X pos",
+                    "name": "USEG:UND1:1650:XIN"
+                },
+                {
+                    "descr": "Undulator 17 X pos",
+                    "name": "USEG:UND1:1750:XIN"
+                },
+                {
+                    "descr": "Undulator 18 X pos",
+                    "name": "USEG:UND1:1850:XIN"
+                },
+                {
+                    "descr": "Undulator 19 X pos",
+                    "name": "USEG:UND1:1950:XIN"
+                },
+                {
+                    "descr": "Undulator 20 X pos",
+                    "name": "USEG:UND1:2050:XIN"
+                },
+                {
+                    "descr": "Undulator 21 X pos",
+                    "name": "USEG:UND1:2150:XIN"
+                },
+                {
+                    "descr": "Undulator 22 X pos",
+                    "name": "USEG:UND1:2250:XIN"
+                },
+                {
+                    "descr": "Undulator 23 X pos",
+                    "name": "USEG:UND1:2350:XIN"
+                },
+                {
+                    "descr": "Undulator 24 X pos",
+                    "name": "USEG:UND1:2450:XIN"
+                },
+                {
+                    "descr": "Undulator 25 X pos",
+                    "name": "USEG:UND1:2550:XIN"
+                },
+                {
+                    "descr": "Undulator 26 X pos",
+                    "name": "USEG:UND1:2650:XIN"
+                },
+                {
+                    "descr": "Undulator 27 X pos",
+                    "name": "USEG:UND1:2750:XIN"
+                },
+                {
+                    "descr": "Undulator 28 X pos",
+                    "name": "USEG:UND1:2850:XIN"
+                }
+            ],
+            "SECTION": "undulator",
+            "TITLE": "Undulator Status"
+        },
+        {
+            "PARAMS": [
+                {
+                    "descr": "FEE mask slit X- blade",
+                    "name": "STEP:FEE1:151:MOTR.RBV"
+                },
+                {
+                    "descr": "FEE mask slit X+ blade",
+                    "name": "STEP:FEE1:152:MOTR.RBV"
+                },
+                {
+                    "descr": "FEE mask slit Y- blade",
+                    "name": "STEP:FEE1:153:MOTR.RBV"
+                },
+                {
+                    "descr": "FEE mask slit Y+ blade",
+                    "name": "STEP:FEE1:154:MOTR.RBV"
+                },
+                {
+                    "descr": "FEE mask slit X center",
+                    "name": "SLIT:FEE1:ACTUAL_XCENTER"
+                },
+                {
+                    "descr": "FEE mask slit X width",
+                    "name": "SLIT:FEE1:ACTUAL_XWIDTH"
+                },
+                {
+                    "descr": "FEE mask slit Y center",
+                    "name": "SLIT:FEE1:ACTUAL_YCENTER"
+                },
+                {
+                    "descr": "FEE mask slit Y width",
+                    "name": "SLIT:FEE1:ACTUAL_YWIDTH"
+                },
+                {
+                    "descr": "FEE M1H X pos",
+                    "name": "STEP:FEE1:611:MOTR.RBV"
+                },
+                {
+                    "descr": "FEE M1H dX",
+                    "name": "STEP:FEE1:612:MOTR.RBV"
+                },
+                {
+                    "descr": "FEE M2H X pos",
+                    "name": "STEP:FEE1:861:MOTR.RBV"
+                },
+                {
+                    "descr": "FEE M2H dX",
+                    "name": "STEP:FEE1:862:MOTR.RBV"
+                },
+                {
+                    "descr": "FEE M1H X LVDT",
+                    "name": "LVDT:FEE1:611:LVPOS"
+                },
+                {
+                    "descr": "FEE M1H dX LVDT",
+                    "name": "LVDT:FEE1:612:LVPOS"
+                },
+                {
+                    "descr": "FEE M2H X LVDT",
+                    "name": "LVDT:FEE1:861:LVPOS"
+                },
+                {
+                    "descr": "FEE M2H dX LVDT",
+                    "name": "LVDT:FEE1:862:LVPOS"
+                },
+                {
+                    "descr": "FEE attenuator 1",
+                    "name": "SATT:FEE1:321:STATE"
+                },
+                {
+                    "descr": "FEE attenuator 2",
+                    "name": "SATT:FEE1:322:STATE"
+                },
+                {
+                    "descr": "FEE attenuator 3",
+                    "name": "SATT:FEE1:323:STATE"
+                },
+                {
+                    "descr": "FEE attenuator 4",
+                    "name": "SATT:FEE1:324:STATE"
+                },
+                {
+                    "descr": "FEE attenuator 5",
+                    "name": "SATT:FEE1:325:STATE"
+                },
+                {
+                    "descr": "FEE attenuator 6",
+                    "name": "SATT:FEE1:326:STATE"
+                },
+                {
+                    "descr": "FEE attenuator 7",
+                    "name": "SATT:FEE1:327:STATE"
+                },
+                {
+                    "descr": "FEE attenuator 8",
+                    "name": "SATT:FEE1:328:STATE"
+                },
+                {
+                    "descr": "FEE attenuator 9",
+                    "name": "SATT:FEE1:329:STATE"
+                },
+                {
+                    "descr": "FEE total attenuator",
+                    "name": "SATT:FEE1:320:TACT"
+                }
+            ],
+            "SECTION": "FEE_data",
+            "TITLE": "FEE Data"
+        },
+        {
+            "PARAMS": [
+                {
+                    "descr": "Unfocused",
+                    "name": "CXI:MPS:CFG:1_MPSC"
+                },
+                {
+                    "descr": "10 um XRT lens",
+                    "name": "CXI:MPS:CFG:2_MPSC"
+                },
+                {
+                    "descr": "1 um DG2 lens",
+                    "name": "CXI:MPS:CFG:3_MPSC"
+                },
+                {
+                    "descr": "1 um KB mirror",
+                    "name": "CXI:MPS:CFG:4_MPSC"
+                },
+                {
+                    "descr": "100 nm KB mirror",
+                    "name": "CXI:MPS:CFG:5_MPSC"
+                }
+            ],
+            "SECTION": "CXI",
+            "TITLE": "CXI"
+        },
+        {
+            "PARAMS": [
+                {
+                    "descr": "20 um Si foil",
+                    "name": "XRT:DIA:MMS:02.RBV"
+                },
+                {
+                    "descr": "40 um Si foil",
+                    "name": "XRT:DIA:MMS:03.RBV"
+                },
+                {
+                    "descr": "80 um Si foil",
+                    "name": "XRT:DIA:MMS:04.RBV"
+                },
+                {
+                    "descr": "160 um Si foil",
+                    "name": "XRT:DIA:MMS:05.RBV"
+                },
+                {
+                    "descr": "320 um Si foil",
+                    "name": "XRT:DIA:MMS:06.RBV"
+                },
+                {
+                    "descr": "640 um Si foil",
+                    "name": "XRT:DIA:MMS:07.RBV"
+                },
+                {
+                    "descr": "1280 um Si foil",
+                    "name": "XRT:DIA:MMS:08.RBV"
+                },
+                {
+                    "descr": "2560 um Si foil",
+                    "name": "XRT:DIA:MMS:09.RBV"
+                },
+                {
+                    "descr": "5120 um Si foil",
+                    "name": "XRT:DIA:MMS:10.RBV"
+                },
+                {
+                    "descr": "10240 um Si foil",
+                    "name": "XRT:DIA:MMS:11.RBV"
+                },
+                {
+                    "descr": "XRT lens out",
+                    "name": "XRT:DIA:MMS:14.HLS"
+                },
+                {
+                    "descr": "XRT lens Y pos",
+                    "name": "XRT:DIA:MMS:14.RBV"
+                }
+            ],
+            "SECTION": "DIA",
+            "TITLE": "DIA"
+        },
+        {
+            "PARAMS": [
+                {
+                    "descr": "DG1 slit X center",
+                    "name": "CXI:DG1:JAWS:XTRANS.C"
+                },
+                {
+                    "descr": "DG1 slit X width",
+                    "name": "CXI:DG1:JAWS:YTRANS.C"
+                },
+                {
+                    "descr": "DG1 slit Y center",
+                    "name": "CXI:DG1:JAWS:XTRANS.D"
+                },
+                {
+                    "descr": "DG1 slit Y width",
+                    "name": "CXI:DG1:JAWS:YTRANS.D"
+                },
+                {
+                    "descr": "DG1 Navitar Zoom",
+                    "name": "CXI:DG1:CLZ:01.RBV"
+                }
+            ],
+            "SECTION": "DG1",
+            "TITLE": "DG1"
+        },
+        {
+            "PARAMS": [
+                {
+                    "descr": "DS2/DG2 valve open",
+                    "name": "CXI:DG2:VGC:01:OPN_DI"
+                },
+                {
+                    "descr": "DS2/DG2 valve closed",
+                    "name": "CXI:DG2:VGC:01:CLS_DI"
+                },
+                {
+                    "descr": "DG2 slit X center",
+                    "name": "CXI:DG2:JAWS:XTRANS.C"
+                },
+                {
+                    "descr": "DG2 slit X width",
+                    "name": "CXI:DG2:JAWS:YTRANS.C"
+                },
+                {
+                    "descr": "DG2 slit Y center",
+                    "name": "CXI:DG2:JAWS:XTRANS.D"
+                },
+                {
+                    "descr": "DG2 slit Y width",
+                    "name": "CXI:DG2:JAWS:YTRANS.D"
+                },
+                {
+                    "descr": "DG2 IPM diode Y pos",
+                    "name": "CXI:DG2:MMS:08.RBV"
+                },
+                {
+                    "descr": "DG2 IPM target Y pos",
+                    "name": "CXI:DG2:MMS:10.RBV"
+                },
+                {
+                    "descr": "DG2 lens out",
+                    "name": "CXI:DG2:MMS:06.HLS"
+                },
+                {
+                    "descr": "DG2 lens Y pos",
+                    "name": "CXI:DG2:MMS:06.RBV"
+                },
+                {
+                    "descr": "DG2 Navitar zoom",
+                    "name": "CXI:DG2:CLZ:01.RBV"
+                },
+                {
+                    "descr": "DG2/DSU valve open",
+                    "name": "CXI:DG2:VGC:02:OPN_DI"
+                },
+                {
+                    "descr": "DG2/DSU valve closed",
+                    "name": "CXI:DG2:VGC:02:CLS_DI"
+                }
+            ],
+            "SECTION": "DG2",
+            "TITLE": "DG2"
+        },
+        {
+            "PARAMS": [
+                {
+                    "descr": "KB1 chamber pressure",
+                    "name": "CXI:KB1:GCC:02:PMON"
+                },
+                {
+                    "descr": "KB1 slit (US) X center",
+                    "name": "CXI:KB1:JAWS:US:XTRANS.C"
+                },
+                {
+                    "descr": "KB1 slit (US) X width",
+                    "name": "CXI:KB1:JAWS:US:YTRANS.C"
+                },
+                {
+                    "descr": "KB1 slit (US) Y center",
+                    "name": "CXI:KB1:JAWS:US:XTRANS.D"
+                },
+                {
+                    "descr": "KB1 slit (US) Y width",
+                    "name": "CXI:KB1:JAWS:US:YTRANS.D"
+                },
+                {
+                    "descr": "KB1 Horizontal X pos",
+                    "name": "CXI:KB1:MMS:05.RBV"
+                },
+                {
+                    "descr": "KB1 Horizontal Y pos",
+                    "name": "CXI:KB1:MMS:06.RBV"
+                },
+                {
+                    "descr": "KB1 Horizontal pitch",
+                    "name": "CXI:KB1:MMS:07.RBV"
+                },
+                {
+                    "descr": "KB1 Horizontal roll",
+                    "name": "CXI:KB1:MMS:08.RBV"
+                },
+                {
+                    "descr": "KB1 Vertical X pos",
+                    "name": "CXI:KB1:MMS:09.RBV"
+                },
+                {
+                    "descr": "KB1 Vertical Y pos",
+                    "name": "CXI:KB1:MMS:10.RBV"
+                },
+                {
+                    "descr": "KB1 Vertical pitch",
+                    "name": "CXI:KB1:MMS:11.RBV"
+                },
+                {
+                    "descr": "KB1 slit (DS) X center",
+                    "name": "CXI:KB1:JAWS:DS:XTRANS.C"
+                },
+                {
+                    "descr": "KB1 slit (DS) X width",
+                    "name": "CXI:KB1:JAWS:DS:YTRANS.C"
+                },
+                {
+                    "descr": "KB1 slit (US) Y center",
+                    "name": "CXI:KB1:JAWS:DS:XTRANS.D"
+                },
+                {
+                    "descr": "KB1 slit (US) Y width",
+                    "name": "CXI:KB1:JAWS:DS:YTRANS.D"
+                },
+                {
+                    "descr": "KB1 Navitar Zoom",
+                    "name": "CXI:KB1:CLZ:01.RBV"
+                }
+            ],
+            "SECTION": "KB1",
+            "TITLE": "KB1"
+        },
+        {
+            "PARAMS": [
+                {
+                    "descr": "DSU slit X center",
+                    "name": "CXI:DSU:JAWS:XTRANS.C"
+                },
+                {
+                    "descr": "DSU slit X width",
+                    "name": "CXI:DSU:JAWS:YTRANS.C"
+                },
+                {
+                    "descr": "DSU slit Y center",
+                    "name": "CXI:DSU:JAWS:XTRANS.D"
+                },
+                {
+                    "descr": "DSU slit Y width",
+                    "name": "CXI:DSU:JAWS:YTRANS.D"
+                }
+            ],
+            "SECTION": "KB2",
+            "TITLE": "KB2"
+        },
+        {
+            "PARAMS": [],
+            "SECTION": "DSU",
+            "TITLE": "DSU"
+        },
+        {
+            "PARAMS": [
+                {
+                    "descr": "SC1 chamber pressure",
+                    "name": "CXI:SC1:GCC:01:PMON"
+                },
+                {
+                    "descr": "DSU/SC1 valve open",
+                    "name": "CXI:SC1:VGC:01:OPN_DI"
+                },
+                {
+                    "descr": "DSU/SC1 valve closed",
+                    "name": "CXI:SC1:VGC:01:CLS_DI"
+                },
+                {
+                    "descr": "SC1 MZM aperture 1 X",
+                    "name": "CXI:SC1:MZM:01:ENCPOSITIONGET"
+                },
+                {
+                    "descr": "SC1 MZM aperture 1 Y",
+                    "name": "CXI:SC1:MZM:02:ENCPOSITIONGET"
+                },
+                {
+                    "descr": "SC1 MZM aperture 2 X",
+                    "name": "CXI:SC1:MZM:03:ENCPOSITIONGET"
+                },
+                {
+                    "descr": "SC1 MZM aperture 2 Y",
+                    "name": "CXI:SC1:MZM:04:ENCPOSITIONGET"
+                },
+                {
+                    "descr": "SC1 MZM aperture 3 X",
+                    "name": "CXI:SC1:MZM:05:ENCPOSITIONGET"
+                },
+                {
+                    "descr": "SC1 MZM aperture 3 Y",
+                    "name": "CXI:SC1:MZM:06:ENCPOSITIONGET"
+                },
+                {
+                    "descr": "SC1 MZM aperture 3 Z",
+                    "name": "CXI:SC1:MZM:07:ENCPOSITIONGET"
+                },
+                {
+                    "descr": "SC1 MZM sample X",
+                    "name": "CXI:SC1:MZM:08:ENCPOSITIONGET"
+                },
+                {
+                    "descr": "SC1 MZM sample Y",
+                    "name": "CXI:SC1:MZM:09:ENCPOSITIONGET"
+                },
+                {
+                    "descr": "SC1 MZM sample Z",
+                    "name": "CXI:SC1:MZM:10:ENCPOSITIONGET"
+                },
+                {
+                    "descr": "SC1 MZM part aper X",
+                    "name": "CXI:SC1:MZM:12:ENCPOSITIONGET"
+                },
+                {
+                    "descr": "SC1 MZM part aper Z",
+                    "name": "CXI:SC1:MZM:13:ENCPOSITIONGET"
+                },
+                {
+                    "descr": "SC1 MZM view mirror X",
+                    "name": "CXI:SC1:MZM:14:ENCPOSITIONGET"
+                },
+                {
+                    "descr": "SC1 MZM view mirror Y",
+                    "name": "CXI:SC1:MZM:15:ENCPOSITIONGET"
+                },
+                {
+                    "descr": "SC1 sample yaw",
+                    "name": "CXI:SC1:PIC:01.RBV"
+                },
+                {
+                    "descr": "SC1 sample pitch/yaw 1",
+                    "name": "CXI:SC1:PIC:02.RBV"
+                },
+                {
+                    "descr": "SC1 sample pitch/yaw 2",
+                    "name": "CXI:SC1:PIC:03.RBV"
+                },
+                {
+                    "descr": "SC1 sample pitch/yaw 3",
+                    "name": "CXI:SC1:PIC:04.RBV"
+                },
+                {
+                    "descr": "SC1 sample x (long)",
+                    "name": "CXI:SC1:MMS:02.RBV"
+                },
+                {
+                    "descr": "SC1/DS1 valve open",
+                    "name": "CXI:SC1:VGC:02:OPN_DI"
+                },
+                {
+                    "descr": "SC1/DS1 valve closed",
+                    "name": "CXI:SC1:VGC:02:CLS_DI"
+                }
+            ],
+            "SECTION": "SC1",
+            "TITLE": "SC1"
+        },
+        {
+            "PARAMS": [
+                {
+                    "descr": "DS1 chamber pressure",
+                    "name": "CXI:DS1:GCC:01:PMON"
+                },
+                {
+                    "descr": "DS1 detector Z pos",
+                    "name": "CXI:DS1:MMS:06.RBV"
+                },
+                {
+                    "descr": "DS1 stick Y pos",
+                    "name": "CXI:DS1:MMS:07.RBV"
+                },
+                {
+                    "descr": "DS1 chiller temp",
+                    "name": "CXI:DS1:TEMPERATURE"
+                },
+                {
+                    "descr": "DS1 chiller flowmeter",
+                    "name": "CXI:DS1:FLOW_METER"
+                },
+                {
+                    "descr": "DS1 quad 0 temp",
+                    "name": "CXI:DS1:TE-TECH1:ACTUAL_TEMP"
+                },
+                {
+                    "descr": "DS1 quad 1 temp",
+                    "name": "CXI:DS1:TE-TECH1:ACTUAL_SEC_TEMP"
+                },
+                {
+                    "descr": "DS1 quad 2 temp",
+                    "name": "CXI:DS1:TE-TECH2:ACTUAL_TEMP"
+                },
+                {
+                    "descr": "DS1 quad 3 temp",
+                    "name": "CXI:DS1:TE-TECH2:ACTUAL_SEC_TEMP"
+                },
+                {
+                    "descr": "DS1 bias voltage",
+                    "name": "CXI:DS1:BIAS"
+                }
+            ],
+            "SECTION": "DS1",
+            "TITLE": "DS1"
+        },
+        {
+            "PARAMS": [
+                {
+                    "descr": "DSD chamber pressure",
+                    "name": "CXI:DSD:GCC:01:PMON"
+                },
+                {
+                    "descr": "DSD detector Z pos",
+                    "name": "CXI:DSD:MMS:06.RBV"
+                },
+                {
+                    "descr": "DSD chiller temp",
+                    "name": "CXI:DS1:TEMPERATURE"
+                },
+                {
+                    "descr": "DSD chiller flowmeter",
+                    "name": "CXI:DS1:FLOW_METER"
+                },
+                {
+                    "descr": "1MS/DG3 valve open",
+                    "name": "CXI:DS1:VGC:01:OPN_DI"
+                },
+                {
+                    "descr": "1MS/DG3 valve closed",
+                    "name": "CXI:DS1:VGC:01:CLS_DI"
+                }
+            ],
+            "SECTION": "DSD",
+            "TITLE": "DSD"
+        },
+        {
+            "PARAMS": [
+                {
+                    "descr": "DG4 IPM diode Y",
+                    "name": "CXI:DG4:MMS:02.RBV"
+                },
+                {
+                    "descr": "DG4 IPM target Y",
+                    "name": "CXI:DG4:MMS:03.RBV"
+                },
+                {
+                    "descr": "DG4 Navitar zoom",
+                    "name": "CXI:DG4:CLZ:01.RBV"
+                }
+            ],
+            "SECTION": "DG4",
+            "TITLE": "DG4"
+        },
+        {
+            "PARAMS": [
+                {
+                    "descr": "User motor ch  1",
+                    "name": "CXI:USR:MMS:01.RBV"
+                },
+                {
+                    "descr": "User motor ch  2",
+                    "name": "CXI:USR:MMS:02.RBV"
+                },
+                {
+                    "descr": "User motor ch  3",
+                    "name": "CXI:USR:MMS:03.RBV"
+                },
+                {
+                    "descr": "User motor ch  4",
+                    "name": "CXI:USR:MMS:04.RBV"
+                },
+                {
+                    "descr": "User motor ch  5",
+                    "name": "CXI:USR:MMS:05.RBV"
+                },
+                {
+                    "descr": "User motor ch  6",
+                    "name": "CXI:USR:MMS:06.RBV"
+                },
+                {
+                    "descr": "User motor ch 17",
+                    "name": "CXI:USR:MMS:17.RBV"
+                },
+                {
+                    "descr": "User motor ch 18",
+                    "name": "CXI:USR:MMS:18.RBV"
+                },
+                {
+                    "descr": "User motor ch 19",
+                    "name": "CXI:USR:MMS:19.RBV"
+                },
+                {
+                    "descr": "Current gas pressure 1",
+                    "name": "CXI:R52:AI:PRES_REG1"
+                },
+                {
+                    "descr": "Total pressure change 1",
+                    "name": "CXI:R52:UPDATE1"
+                },
+                {
+                    "descr": "Current gas pressure 2",
+                    "name": "CXI:R52:AI:PRES_REG2"
+                },
+                {
+                    "descr": "Total pressure change 2",
+                    "name": "CXI:R52:UPDATE2"
+                }
+            ],
+            "SECTION": "USR",
+            "TITLE": "USR"
+        }
+    ],
+    "HEADER": [
+        {
+            "PARAMS": [
+                {
+                    "descr": "electron beam energy",
+                    "name": "BEND:DMP1:400:BDES"
+                },
+                {
+                    "descr": "beam rep rate",
+                    "name": "EVNT:SYS0:1:LCLSBEAMRATE"
+                },
+                {
+                    "descr": "Particle N_electrons",
+                    "name": "BPMS:DMP1:199:TMIT1H"
+                },
+                {
+                    "descr": "E.Vernier",
+                    "name": "SIOC:SYS0:ML00:AO289"
+                },
+                {
+                    "descr": "Charge",
+                    "name": "BEAM:LCLS:ELEC:Q"
+                },
+                {
+                    "descr": "Peak current after second bunch compressor",
+                    "name": "SIOC:SYS0:ML00:AO195"
+                },
+                {
+                    "descr": "Pulse length",
+                    "name": "SIOC:SYS0:ML00:AO820"
+                },
+                {
+                    "descr": "ebeam energy loss converted to photon mJ",
+                    "name": "SIOC:SYS0:ML00:AO569"
+                },
+                {
+                    "descr": "Calculated number of photons",
+                    "name": "SIOC:SYS0:ML00:AO580"
+                },
+                {
+                    "descr": "Photon beam energy",
+                    "name": "SIOC:SYS0:ML00:AO541"
+                },
+                {
+                    "descr": "Photon beam energy",
+                    "name": "SIOC:SYS0:ML00:AO627"
+                },
+                {
+                    "descr": "Wavelength",
+                    "name": "SIOC:SYS0:ML00:AO192"
+                }
+            ],
+            "SECTION": "BEAMS",
+            "TITLE": "Electron and Photon beams"
+        },
+        {
+            "PARAMS": [
+                {
+                    "descr": "Gas attenuator setpoint",
+                    "name": "VGPR:FEE1:311:PSETPOINT_DES"
+                },
+                {
+                    "descr": "Gas attenuator actual pressure",
+                    "name": "VGCP:FEE1:311:P"
+                },
+                {
+                    "descr": "Gas attenuator calculated transmission",
+                    "name": "GATT:FEE1:310:R_ACT"
+                },
+                {
+                    "descr": "Solid attenuator 1",
+                    "name": "SATT:FEE1:321:STATE"
+                },
+                {
+                    "descr": "Solid attenuator 2",
+                    "name": "SATT:FEE1:322:STATE"
+                },
+                {
+                    "descr": "Solid attenuator 3",
+                    "name": "SATT:FEE1:323:STATE"
+                },
+                {
+                    "descr": "Solid attenuator 4",
+                    "name": "SATT:FEE1:324:STATE"
+                },
+                {
+                    "descr": "Total attenuator length",
+                    "name": "SATT:FEE1:320:TACT"
+                },
+                {
+                    "descr": "FEE mirror LVDT position",
+                    "name": "LVDT:FEE1:1811:LVPOS"
+                },
+                {
+                    "descr": "FEE mirror LVDT position",
+                    "name": "LVDT:FEE1:1812:LVPOS"
+                },
+                {
+                    "descr": "FEE mirror RBV position",
+                    "name": "STEP:FEE1:1811:MOTR.RBV"
+                },
+                {
+                    "descr": "FEE mirror RBV position",
+                    "name": "STEP:FEE1:1812:MOTR.RBV"
+                }
+            ],
+            "SECTION": "FEE",
+            "TITLE": "FEE"
+        },
+        {
+            "PARAMS": [
+                {
+                    "descr": "Murali's test",
+                    "name": "MTEST:ABC:DEF"
+                }
+            ],
+            "SECTION": "MTEST",
+            "TITLE": "MTestPVs"
+        }
+    ],
+    "MEC": [],
+    "MFX": [],
+    "SXR": [
+        {
+            "PARAMS": [
+                {
+                    "descr": "SXR:COL:GCC:01:PMON",
+                    "name": "SXR:COL:GCC:01:PMON"
+                },
+                {
+                    "descr": "SXR:COL:PIP:01:PMON",
+                    "name": "SXR:COL:PIP:01:PMON"
+                }
+            ],
+            "SECTION": "COL",
+            "TITLE": "Collimator"
+        },
+        {
+            "PARAMS": [
+                {
+                    "descr": "SXR:EXS:GCC:01:PMON",
+                    "name": "SXR:EXS:GCC:01:PMON"
+                },
+                {
+                    "descr": "SXR:EXS:MMS:01.VAL",
+                    "name": "SXR:EXS:MMS:01.VAL"
+                },
+                {
+                    "descr": "SXR:EXS:PIP:01:PMON",
+                    "name": "SXR:EXS:PIP:01:PMON"
+                }
+            ],
+            "SECTION": "EXS",
+            "TITLE": "Exit Slit"
+        },
+        {
+            "PARAMS": [
+                {
+                    "descr": "SXR:FLX:GCC:01:PMON",
+                    "name": "SXR:FLX:GCC:01:PMON"
+                },
+                {
+                    "descr": "SXR:FLX:STC:01",
+                    "name": "SXR:FLX:STC:01"
+                }
+            ],
+            "SECTION": "FLX",
+            "TITLE": "Flux Chamber"
+        },
+        {
+            "PARAMS": [
+                {
+                    "descr": "SXR:KBO:GCC:01:PMON",
+                    "name": "SXR:KBO:GCC:01:PMON"
+                },
+                {
+                    "descr": "SXR:KBO:GCC:02:PMON",
+                    "name": "SXR:KBO:GCC:02:PMON"
+                }
+            ],
+            "SECTION": "KBO",
+            "TITLE": "KBO Optics"
+        },
+        {
+            "PARAMS": [
+                {
+                    "descr": "SXR:LIN:GCC:01:PMON",
+                    "name": "SXR:LIN:GCC:01:PMON"
+                }
+            ],
+            "SECTION": "LIN",
+            "TITLE": "Laser Incoupling"
+        },
+        {
+            "PARAMS": [
+                {
+                    "descr": "SXR:MON:GCC:01:PMON",
+                    "name": "SXR:MON:GCC:01:PMON"
+                },
+                {
+                    "descr": "SXR:MON:MMS:01.VAL",
+                    "name": "SXR:MON:MMS:01.VAL"
+                },
+                {
+                    "descr": "SXR:MON:MMS:02.VAL",
+                    "name": "SXR:MON:MMS:02.VAL"
+                },
+                {
+                    "descr": "SXR:MON:MMS:03.VAL",
+                    "name": "SXR:MON:MMS:03.VAL"
+                },
+                {
+                    "descr": "SXR:MON:MMS:04.VAL",
+                    "name": "SXR:MON:MMS:04.VAL"
+                },
+                {
+                    "descr": "SXR:MON:MMS:05.VAL",
+                    "name": "SXR:MON:MMS:05.VAL"
+                },
+                {
+                    "descr": "SXR:MON:MMS:06.VAL",
+                    "name": "SXR:MON:MMS:06.VAL"
+                },
+                {
+                    "descr": "SXR:MON:MMS:07.VAL",
+                    "name": "SXR:MON:MMS:07.VAL"
+                },
+                {
+                    "descr": "SXR:MON:MMS:08.VAL",
+                    "name": "SXR:MON:MMS:08.VAL"
+                },
+                {
+                    "descr": "SXR:MON:PIP:01:PMON",
+                    "name": "SXR:MON:PIP:01:PMON"
+                },
+                {
+                    "descr": "SXR:MON:STC:01",
+                    "name": "SXR:MON:STC:01"
+                },
+                {
+                    "descr": "SXR:MON:STC:02",
+                    "name": "SXR:MON:STC:02"
+                }
+            ],
+            "SECTION": "MON",
+            "TITLE": "Grating"
+        },
+        {
+            "PARAMS": [
+                {
+                    "descr": "SXR:PST:PIP:01:PMON",
+                    "name": "SXR:PST:PIP:01:PMON"
+                },
+                {
+                    "descr": "PPS:NEH1:2:S2STPRSUM",
+                    "name": "PPS:NEH1:2:S2STPRSUM"
+                }
+            ],
+            "SECTION": "PST",
+            "TITLE": "Photon Stopper"
+        },
+        {
+            "PARAMS": [
+                {
+                    "descr": "SXR:SPS:GCC:01:PMON",
+                    "name": "SXR:SPS:GCC:01:PMON"
+                },
+                {
+                    "descr": "SXR:SPS:MPA:01:OUT",
+                    "name": "SXR:SPS:MPA:01:OUT"
+                },
+                {
+                    "descr": "SXR:SPS:PIP:01:PMON",
+                    "name": "SXR:SPS:PIP:01:PMON"
+                },
+                {
+                    "descr": "SXR:SPS:STC:01",
+                    "name": "SXR:SPS:STC:01"
+                }
+            ],
+            "SECTION": "SPS",
+            "TITLE": "Single Pulse Shutter"
+        },
+        {
+            "PARAMS": [
+                {
+                    "descr": "SXR:TSS:GCC:01:PMON",
+                    "name": "SXR:TSS:GCC:01:PMON"
+                },
+                {
+                    "descr": "SXR:TSS:GCC:02:PMON",
+                    "name": "SXR:TSS:GCC:02:PMON"
+                },
+                {
+                    "descr": "SXR:TSS:MMS:01.VAL",
+                    "name": "SXR:TSS:MMS:01.VAL"
+                },
+                {
+                    "descr": "SXR:TSS:MMS:02.VAL",
+                    "name": "SXR:TSS:MMS:02.VAL"
+                },
+                {
+                    "descr": "SXR:TSS:MMS:03.VAL",
+                    "name": "SXR:TSS:MMS:03.VAL"
+                },
+                {
+                    "descr": "SXR:TSS:PIP:01:PMON",
+                    "name": "SXR:TSS:PIP:01:PMON"
+                }
+            ],
+            "SECTION": "TSS",
+            "TITLE": "Transmission Sample Stage"
+        }
+    ],
+    "XCS": [],
+    "XPP": [
+        {
+            "PARAMS": [
+                {
+                    "descr": "Run_is_scan",
+                    "name": "XPP:SCAN:ISSCAN"
+                },
+                {
+                    "descr": "Scanmotor_0",
+                    "name": "XPP:SCAN:SCANVAR00"
+                },
+                {
+                    "descr": "Scanmotor_1",
+                    "name": "XPP:SCAN:SCANVAR01"
+                },
+                {
+                    "descr": "Scanmotor_2",
+                    "name": "XPP:SCAN:SCANVAR02"
+                },
+                {
+                    "descr": "Scanmotor_0_position_min",
+                    "name": "XPP:SCAN:MIN00"
+                },
+                {
+                    "descr": "Scanmotor_0_position_max",
+                    "name": "XPP:SCAN:MAX00"
+                },
+                {
+                    "descr": "Scanmotor_1_position_min",
+                    "name": "XPP:SCAN:MIN01"
+                },
+                {
+                    "descr": "Scanmotor_1_position_max",
+                    "name": "XPP:SCAN:MAX01"
+                },
+                {
+                    "descr": "Scanmotor_2_position_min",
+                    "name": "XPP:SCAN:MIN02"
+                },
+                {
+                    "descr": "Scanmotor_2_position_max",
+                    "name": "XPP:SCAN:MAX02"
+                },
+                {
+                    "descr": "Scan_Number_of_steps",
+                    "name": "XPP:SCAN:NSTEPS"
+                },
+                {
+                    "descr": "Scan_shots_pre_step",
+                    "name": "XPP:SCAN:NSHOTS"
+                }
+            ],
+            "SECTION": "scan",
+            "TITLE": "Scan Info"
+        }
+    ]
+}
