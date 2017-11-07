@@ -1044,7 +1044,48 @@
                 {
                     "descr": "Wavelength",
                     "name": "SIOC:SYS0:ML00:AO192"
-                }
+                },
+		{ "descr": "SIOC:SYS0:ML00:AO556", "name": "SIOC:SYS0:ML00:AO556"},
+		{ "descr": "SIOC:SYS0:ML00:AO971", "name": "SIOC:SYS0:ML00:AO971"},
+		{ "descr": "SIOC:SYS0:ML00:AO972", "name": "SIOC:SYS0:ML00:AO972"},
+		{ "descr": "SIOC:SYS0:ML00:AO748", "name": "SIOC:SYS0:ML00:AO748"},
+		{ "descr": "FOIL:LI24:804:MOTR.RBV", "name": "FOIL:LI24:804:MOTR.RBV"},
+		{ "descr": "FOIL:LI24:804:MOTR.VAL", "name": "FOIL:LI24:804:MOTR.VAL"},
+		{ "descr": "MOVR:DMP1:730:LVPOS", "name": "MOVR:DMP1:730:LVPOS"},
+		{ "descr": "MOVR:DMP1:730:MOTR", "name": "MOVR:DMP1:730:MOTR"},
+		{  "name": "USEG:UND1:150:KACT", "descr": "USEG:UND1:150:KACT"  },
+		{  "name": "USEG:UND1:250:KACT", "descr": "USEG:UND1:250:KACT"  },
+		{  "name": "USEG:UND1:350:KACT", "descr": "USEG:UND1:350:KACT"  },
+		{  "name": "USEG:UND1:450:KACT", "descr": "USEG:UND1:450:KACT"  },
+		{  "name": "USEG:UND1:550:KACT", "descr": "USEG:UND1:550:KACT"  },
+		{  "name": "USEG:UND1:650:KACT", "descr": "USEG:UND1:650:KACT"  },
+		{  "name": "USEG:UND1:750:KACT", "descr": "USEG:UND1:750:KACT"  },
+		{  "name": "USEG:UND1:850:KACT", "descr": "USEG:UND1:850:KACT"  },
+		{  "name": "USEG:UND1:950:KACT", "descr": "USEG:UND1:950:KACT"  },
+		{  "name": "USEG:UND1:1050:KACT", "descr": "USEG:UND1:1050:KACT"  },
+		{  "name": "USEG:UND1:1150:KACT", "descr": "USEG:UND1:1150:KACT"  },
+		{  "name": "USEG:UND1:1250:KACT", "descr": "USEG:UND1:1250:KACT"  },
+		{  "name": "USEG:UND1:1350:KACT", "descr": "USEG:UND1:1350:KACT"  },
+		{  "name": "USEG:UND1:1450:KACT", "descr": "USEG:UND1:1450:KACT"  },
+		{  "name": "USEG:UND1:1550:KACT", "descr": "USEG:UND1:1550:KACT"  },
+		{  "name": "USEG:UND1:1650:KACT", "descr": "USEG:UND1:1650:KACT"  },
+		{  "name": "USEG:UND1:1750:KACT", "descr": "USEG:UND1:1750:KACT"  },
+		{  "name": "USEG:UND1:1850:KACT", "descr": "USEG:UND1:1850:KACT"  },
+		{  "name": "USEG:UND1:1950:KACT", "descr": "USEG:UND1:1950:KACT"  },
+		{  "name": "USEG:UND1:2050:KACT", "descr": "USEG:UND1:2050:KACT"  },
+		{  "name": "USEG:UND1:2150:KACT", "descr": "USEG:UND1:2150:KACT"  },
+		{  "name": "USEG:UND1:2250:KACT", "descr": "USEG:UND1:2250:KACT"  },
+		{  "name": "USEG:UND1:2350:KACT", "descr": "USEG:UND1:2350:KACT"  },
+		{  "name": "USEG:UND1:2450:KACT", "descr": "USEG:UND1:2450:KACT"  },
+		{  "name": "USEG:UND1:2550:KACT", "descr": "USEG:UND1:2550:KACT"  },
+		{  "name": "USEG:UND1:2650:KACT", "descr": "USEG:UND1:2650:KACT"  },
+		{  "name": "USEG:UND1:2750:KACT", "descr": "USEG:UND1:2750:KACT"  },
+		{  "name": "USEG:UND1:2850:KACT", "descr": "USEG:UND1:2850:KACT"  },
+		{  "name": "USEG:UND1:2950:KACT", "descr": "USEG:UND1:2950:KACT"  },
+		{  "name": "USEG:UND1:3050:KACT", "descr": "USEG:UND1:3050:KACT"  },
+		{  "name": "USEG:UND1:3150:KACT", "descr": "USEG:UND1:3150:KACT"  },
+		{  "name": "USEG:UND1:3250:KACT", "descr": "USEG:UND1:3250:KACT"  },
+		{  "name": "USEG:UND1:3350:KACT", "descr": "USEG:UND1:3350:KACT"  }
             ],
             "SECTION": "BEAMS",
             "TITLE": "Electron and Photon beams"
@@ -1098,20 +1139,27 @@
                 {
                     "descr": "FEE mirror RBV position",
                     "name": "STEP:FEE1:1812:MOTR.RBV"
-                }
+                },
+		{ "descr": "VGBA:FEE1:240:P", "name": "VGBA:FEE1:240:P"},
+		{ "descr": "HVCH:FEE1:241:VoltageMeasure", "name": "HVCH:FEE1:241:VoltageMeasure"},
+		{ "descr": "HVCH:FEE1:242:VoltageMeasure", "name": "HVCH:FEE1:242:VoltageMeasure"},
+		{ "descr": "VGBA:FEE1:360:P", "name": "VGBA:FEE1:360:P"},
+		{ "descr": "HVCH:FEE1:361:VoltageMeasure", "name": "HVCH:FEE1:361:VoltageMeasure"},
+		{ "descr": "HVCH:FEE1:362:VoltageMeasure", "name": "HVCH:FEE1:362:VoltageMeasure"},
+		{ "descr": "VGBA:FEE1:311:P", "name": "VGBA:FEE1:311:P"},
+		{ "descr": "SATT:FEE1:320:RACT", "name": "SATT:FEE1:320:RACT"},
+		{ "descr": "SATT:FEE1:320:ETOA.E", "name": "SATT:FEE1:320:ETOA.E"},
+		{ "descr": "feespec_emin", "name": "FEE:HXS.EMIN"},
+		{ "descr": "feespec_emax", "name": "FEE:HXS.EMAX"},
+		{ "descr": "feespec_res", "name": "FEE:HXS.DE"},
+		{ "descr": "feespec_bragg", "name": "FEE:HXS.BANG"},
+		{ "descr": "feespec_xray_energy", "name": "FEE:HXS.XENG"},
+		{ "descr": "feespec_vbeam_size", "name": "FEE:HXS.XVUM"},
+		{ "descr": "feespec_crystal", "name": "FEE:HXS.KRST"},
+		{ "descr": "feespec_reflection", "name": "FEE:HXS.S110"}
             ],
             "SECTION": "FEE",
             "TITLE": "FEE"
-        },
-        {
-            "PARAMS": [
-                {
-                    "descr": "Murali's test",
-                    "name": "MTEST:ABC:DEF"
-                }
-            ],
-            "SECTION": "MTEST",
-            "TITLE": "MTestPVs"
         }
     ],
     "MEC": [],
@@ -1308,61 +1356,578 @@
             "TITLE": "Transmission Sample Stage"
         }
     ],
-    "XCS": [],
-    "XPP": [
+    "XCS": [
+        {
+            "SECTION": "gon",
+            "TITLE": "Goniometer Motors",
+            "PARAMS": [
+		{  "name": "XCS:GON:MMS:01.RBV", "descr": "XCS:GON:MMS:01.RBV" },
+		{  "name": "XCS:GON:MMS:02.RBV", "descr": "XCS:GON:MMS:02.RBV" },
+		{  "name": "XCS:GON:MMS:03.RBV", "descr": "XCS:GON:MMS:03.RBV" },
+		{  "name": "XCS:GON:MMS:04.RBV", "descr": "XCS:GON:MMS:04.RBV" },
+		{  "name": "XCS:GON:MMS:05.RBV", "descr": "XCS:GON:MMS:05.RBV" },
+		{  "name": "XCS:GON:MMS:06.RBV", "descr": "XCS:GON:MMS:06.RBV" },
+		{  "name": "XCS:GON:MMS:07.RBV", "descr": "XCS:GON:MMS:07.RBV" },
+		{  "name": "XCS:GON:MMS:08.RBV", "descr": "XCS:GON:MMS:08.RBV" },
+		{  "name": "XCS:GON:MMS:09.RBV", "descr": "XCS:GON:MMS:09.RBV" },
+		{  "name": "XCS:GON:MMS:10.RBV", "descr": "XCS:GON:MMS:10.RBV" }
+            ]
+        },
         {
             "PARAMS": [
-                {
-                    "descr": "Run_is_scan",
-                    "name": "XPP:SCAN:ISSCAN"
-                },
-                {
-                    "descr": "Scanmotor_0",
-                    "name": "XPP:SCAN:SCANVAR00"
-                },
-                {
-                    "descr": "Scanmotor_1",
-                    "name": "XPP:SCAN:SCANVAR01"
-                },
-                {
-                    "descr": "Scanmotor_2",
-                    "name": "XPP:SCAN:SCANVAR02"
-                },
-                {
-                    "descr": "Scanmotor_0_position_min",
-                    "name": "XPP:SCAN:MIN00"
-                },
-                {
-                    "descr": "Scanmotor_0_position_max",
-                    "name": "XPP:SCAN:MAX00"
-                },
-                {
-                    "descr": "Scanmotor_1_position_min",
-                    "name": "XPP:SCAN:MIN01"
-                },
-                {
-                    "descr": "Scanmotor_1_position_max",
-                    "name": "XPP:SCAN:MAX01"
-                },
-                {
-                    "descr": "Scanmotor_2_position_min",
-                    "name": "XPP:SCAN:MIN02"
-                },
-                {
-                    "descr": "Scanmotor_2_position_max",
-                    "name": "XPP:SCAN:MAX02"
-                },
-                {
-                    "descr": "Scan_Number_of_steps",
-                    "name": "XPP:SCAN:NSTEPS"
-                },
-                {
-                    "descr": "Scan_shots_pre_step",
-                    "name": "XPP:SCAN:NSHOTS"
-                }
+                {   "name": "XCS:SCAN:ISSCAN" , "descr": "XCS:SCAN:ISSCAN"  },
+                {   "name": "XCS:SCAN:SCANVAR00", "descr": "XCS:SCAN:SCANVAR00" },
+                {   "name": "XCS:SCAN:SCANVAR01", "descr": "XCS:SCAN:SCANVAR01" },
+                {   "name": "XCS:SCAN:SCANVAR02", "descr": "XCS:SCAN:SCANVAR02" },
+                {   "name": "XCS:SCAN:MIN00", "descr": "XCS:SCAN:MIN00" },
+                {   "name": "XCS:SCAN:MAX00", "descr": "XCS:SCAN:MAX00" },
+                {   "name": "XCS:SCAN:MIN01", "descr": "XCS:SCAN:MIN01" },
+                {   "name": "XCS:SCAN:MAX01", "descr": "XCS:SCAN:MAX01" },
+                {   "name": "XCS:SCAN:MIN02", "descr": "XCS:SCAN:MIN02" },
+                {   "name": "XCS:SCAN:MAX02", "descr": "XCS:SCAN:MAX02" },
+                {   "name": "XCS:SCAN:NSTEPS", "descr": "XCS:SCAN:NSTEPS" },
+                {   "name": "XCS:SCAN:NSHOTS", "descr": "XCS:SCAN:NSHOTS" },
+                {   "name": "XCS:SCAN:ISTEP", "descr": "XCS:SCAN:ISTEP" }
             ],
             "SECTION": "scan",
             "TITLE": "Scan Info"
+        },
+        {
+            "PARAMS": [
+		{ "name": "XCS:VARS:LOM:E", "descr": "lom_E" },
+		{ "name": "XCS:VARS:LOM:E1", "descr": "lom_E1" },
+		{ "name": "XCS:VARS:LOM:E2", "descr": "lom_E2" },
+		{ "name": "HFX:MON:MMS:04.RBV", "descr": "HFX:MON:MMS:04.RBV" },
+		{ "name": "HFX:MON:MMS:05.RBV", "descr": "HFX:MON:MMS:05.RBV" },
+		{ "name": "HFX:MON:MMS:06.RBV", "descr": "HFX:MON:MMS:06.RBV" },
+		{ "name": "HFX:MON:MMS:07.RBV", "descr": "HFX:MON:MMS:07.RBV" },
+		{ "name": "HFX:MON:MMS:08.RBV", "descr": "HFX:MON:MMS:08.RBV" },
+		{ "name": "HFX:MON:MMS:09.RBV", "descr": "HFX:MON:MMS:09.RBV" },
+		{ "name": "HFX:MON:MMS:10.RBV", "descr": "HFX:MON:MMS:10.RBV" },
+		{ "name": "HFX:MON:MMS:11.RBV", "descr": "HFX:MON:MMS:11.RBV" },
+		{ "name": "HFX:MON:MMS:12.RBV", "descr": "HFX:MON:MMS:12.RBV" },
+		{ "name": "HFX:MON:MMS:13.RBV", "descr": "HFX:MON:MMS:13.RBV" },
+		{ "name": "HFX:MON:MMS:14.RBV", "descr": "HFX:MON:MMS:14.RBV" },
+		{ "name": "HFX:MON:MMS:15.RBV", "descr": "HFX:MON:MMS:15.RBV" },
+		{ "name": "HFX:MON:MMS:16.RBV", "descr": "HFX:MON:MMS:16.RBV" },
+		{ "name": "HFX:MON:MMS:17.RBV", "descr": "HFX:MON:MMS:17.RBV" },
+		{ "name": "HFX:MON:MMS:18.RBV", "descr": "HFX:MON:MMS:18.RBV" },
+		{ "name": "HFX:MON:MMS:19.RBV", "descr": "HFX:MON:MMS:19.RBV" },
+		{ "name": "HFX:MON:MMS:20.RBV", "descr": "HFX:MON:MMS:20.RBV" },
+		{ "name": "HFX:MON:MMS:21.RBV", "descr": "HFX:MON:MMS:21.RBV" },
+		{ "name": "HFX:MON:MMS:22.RBV", "descr": "HFX:MON:MMS:22.RBV" },
+		{ "name": "HFX:MON:MMS:23.RBV", "descr": "HFX:MON:MMS:23.RBV" },
+		{ "name": "HFX:MON:CLZ:01.RBV", "descr": "HFX:MON:CLZ:01.RBV" },
+		{ "name": "HFX:MON:MMS:07.VAL", "descr": "HFX:MON:MMS:07.VAL" },
+		{ "name": "HFX:MON:MMS:08.VAL", "descr": "HFX:MON:MMS:08.VAL" },
+		{ "name": "HFX:MON:MMS:14.VAL", "descr": "HFX:MON:MMS:14.VAL" },
+
+		{ "name": "HFX:MON:PIC:01.RBV", "descr": "HFX:MON:PIC:01.RBV" },
+		{ "name": "HFX:MON:PIC:02.RBV", "descr": "HFX:MON:PIC:02.RBV" },
+		{ "name": "HFX:MON:PIC:03.RBV", "descr": "HFX:MON:PIC:03.RBV" },
+		{ "name": "HFX:MON:PIC:04.RBV", "descr": "HFX:MON:PIC:04.RBV" },
+
+		{ "name": "XRT:TMP:TCT:01:GET_TEMP_A",  "descr": "XRT:TMP:TCT:01:GET_TEMP_A"}, 
+		{ "name": "XRT:TMP:TCT:01:GET_HTR_A",  "descr": "XRT:TMP:TCT:01:GET_HTR_A"}, 
+		{ "name": "HFX:MON:TC:2.VAL", "descr": "HFX:MON:TC:2.VAL"},
+		{ "name": "HFX:MON:TC:3.VAL", "descr": "HFX:MON:TC:3.VAL"},
+		{ "name": "HFX:MON:TC:4.VAL", "descr": "HFX:MON:TC:4.VAL"},
+
+		{ "name": "XCS:VARS:CCM:E", "descr": "ccm_E" },
+		{ "name": "XCS:MON:MMS:24.RBV", "descr": "XCS:MON:MMS:24.RBV" },
+		{ "name": "XCS:MON:MMS:25.RBV", "descr": "XCS:MON:MMS:25.RBV" },
+		{ "name": "XCS:MON:MMS:26.RBV", "descr": "XCS:MON:MMS:26.RBV" },
+		{ "name": "XCS:MON:MMS:27.RBV", "descr": "XCS:MON:MMS:27.RBV" },
+		{ "name": "XCS:MON:MMS:28.RBV", "descr": "XCS:MON:MMS:28.RBV" }
+            ],
+            "SECTION": "mono",
+            "TITLE": "Monochromator Variables"
+        },
+        {
+            "SECTION": "snd",
+            "TITLE": "Split and Delay",
+            "PARAMS": [
+		{ "descr": "snd_t1_x", "name": "XCS:SND:T1:X.RBV"},
+		{ "descr": "snd_t1_tth", "name": "XCS:SND:T1:TTH.RBV"},
+		{ "descr": "snd_t1_l", "name": "XCS:SND:T1:L.RBV"},
+		{ "descr": "snd_t1_th1", "name": "XCS:SND:T1:TH1.RBV"},
+		{ "descr": "snd_t1_th2", "name": "XCS:SND:T1:TH2.RBV"},
+		{ "descr": "snd_t1_y1", "name": "XCS:SND:T1:Y1.RBV"},
+		{ "descr": "snd_t1_y2", "name": "XCS:SND:T1:Y2.RBV"},
+		{ "descr": "snd_t1_chi1", "name": "XCS:SND:T1:CHI1.RBV"},
+		{ "descr": "snd_t1_chi2", "name": "XCS:SND:T1:CHI2.RBV"},
+		{ "descr": "snd_t1_dh", "name": "XCS:SND:T1:DH.RBV"},
+
+		{ "descr": "snd_t2_x", "name": "XCS:SND:T2:X.RBV"},
+		{ "descr": "snd_t2_th", "name": "XCS:SND:T2:TH.RBV"},
+
+		{ "descr": "snd_t3_x", "name": "XCS:SND:T3:X.RBV"},
+		{ "descr": "snd_t3_th", "name": "XCS:SND:T3:TH.RBV"},
+
+		{ "descr": "snd_t4_x", "name": "XCS:SND:T4:X.RBV"},
+		{ "descr": "snd_t4_tth", "name": "XCS:SND:T4:TTH.RBV"},
+		{ "descr": "snd_t4_l", "name": "XCS:SND:T4:L.RBV"},
+		{ "descr": "snd_t4_th1", "name": "XCS:SND:T4:TH1.RBV"},
+		{ "descr": "snd_t4_th2", "name": "XCS:SND:T4:TH2.RBV"},
+		{ "descr": "snd_t4_y1", "name": "XCS:SND:T4:Y1.RBV"},
+		{ "descr": "snd_t4_y2", "name": "XCS:SND:T4:Y2.RBV"},
+		{ "descr": "snd_t4_chi1", "name": "XCS:SND:T4:CHI1.RBV"},
+		{ "descr": "snd_t4_chi2", "name": "XCS:SND:T4:CHI2.RBV"},
+		{ "descr": "snd_t4_dh", "name": "XCS:SND:T4:DH.RBV"},
+
+		{ "descr": "snd_DIA_di_x", "name": "XCS:SND:DIA:DI:X.RBV"},
+		{ "descr": "snd_DIA_do_x", "name": "XCS:SND:DIA:DO:X.RBV"},
+		{ "descr": "snd_DIA_dcc_x", "name": "XCS:SND:DIA:DCC:X.RBV"},
+		{ "descr": "snd_DIA_dcc_Y", "name": "XCS:SND:DIA:DCC:Y.RBV"},
+
+		{ "descr": "snd_DIA_dd_x", "name": "XCS:SND:DIA:DD:X.RBV"},
+		{ "descr": "snd_DIA_dd_Y", "name": "XCS:SND:DIA:DD:Y.RBV"},
+		{ "descr": "snd_DIA_dci_x", "name": "XCS:SND:DIA:DCI:X.RBV"},
+		{ "descr": "snd_DIA_dco_x", "name": "XCS:SND:DIA:DCO:X.RBV"}
+
+            ]
+        },
+	{
+            "SECTION": "laser",
+            "TITLE": "Laser",
+            "PARAMS": [
+		{ "descr": "las_tt_delay", "name": "XCS:LAS:MMN:01.RBV"},
+		{ "descr": "las_compressor", "name": "XCS:LAS:MMN:02.RBV"},
+		{ "descr": "las_delayNew", "name": "XCS:LAS:MMN:03.RBV"},
+		{ "descr": "las_lensv", "name": "XCS:LAS:MMN:05.RBV"},
+		{ "descr": "las_lensh", "name": "XCS:LAS:MMN:06.RBV"},
+		{ "descr": "las_lensf", "name": "XCS:LAS:MMN:07.RBV"},
+		{ "descr": "las_opa_wp", "name": "XCS:LAS:MMN:08.RBV"},
+		{ "descr": "las_wp", "name": "XCS:LAS:MMN:15.RBV"},
+		{ "descr": "lxt_ttc", "name": "XCS:USER:LXTTC"}
+            ]
+        },
+	{
+            "SECTION": "slits",
+            "TITLE": "Slits",
+            "PARAMS": [
+		{ "descr": "s1_down_blade", "name": "HXX:UM6:MMS:03.RBV"},
+		{ "descr": "s1_up_blade", "name": "HXX:UM6:MMS:04.RBV"},
+		{ "descr": "s1_right_blade", "name": "HXX:UM6:MMS:01.RBV"},
+		{ "descr": "s1_left_blade", "name": "HXX:UM6:MMS:02.RBV"},
+		{ "descr": "s2_down_blade", "name": "HFX:DG2:MMS:05.RBV"},
+		{ "descr": "s2_up_blade", "name": "HFX:DG2:MMS:04.RBV"},
+		{ "descr": "s2_right_blade", "name": "HFX:DG2:MMS:02.RBV"},
+		{ "descr": "s2_left_blade", "name": "HFX:DG2:MMS:03.RBV"},
+		{ "descr": "s3m_down_blade", "name": "HFX:DG3:MMS:04.RBV"},
+		{ "descr": "s3m_up_blade", "name": "HFX:DG3:MMS:03.RBV"},
+		{ "descr": "s3m_right_blade", "name": "HFX:DG3:MMS:01.RBV"},
+		{ "descr": "s3m_left_blade", "name": "HFX:DG3:MMS:02.RBV"},
+		{ "descr": "s3_down_blade", "name": "XCS:DG3:MMS:13.RBV"},
+		{ "descr": "s3_up_blade", "name": "XCS:DG3:MMS:12.RBV"},
+		{ "descr": "s3_right_blade", "name": "XCS:DG3:MMS:10.RBV"},
+		{ "descr": "s3_left_blade", "name": "XCS:DG3:MMS:11.RBV"},
+		{ "descr": "s4_down_blade", "name": "XCS:SB1:MMS:05.RBV"},
+		{ "descr": "s4_up_blade", "name": "XCS:SB1:MMS:04.RBV"},
+		{ "descr": "s4_right_blade", "name": "XCS:SB1:MMS:02.RBV"},
+		{ "descr": "s4_left_blade", "name": "XCS:SB1:MMS:03.RBV"},
+		{ "descr": "s5_down_blade", "name": "XCS:SB2:MMS:34.RBV"},
+		{ "descr": "s5_up_blade", "name": "XCS:SB2:MMS:33.RBV"},
+		{ "descr": "s5_right_blade", "name": "XCS:SB2:MMS:31.RBV"},
+		{ "descr": "s5_left_blade", "name": "XCS:SB2:MMS:32.RBV"},
+		{ "descr": "s6_down_blade", "name": "XCS:SB2:MMS:38.RBV"},
+		{ "descr": "s6_up_blade", "name": "XCS:SB2:MMS:37.RBV"},
+		{ "descr": "s6_right_blade", "name": "XCS:SB2:MMS:35.RBV"},
+		{ "descr": "s6_left_blade", "name": "XCS:SB2:MMS:36.RBV"},
+		{ "descr": "slit_sfee_d", "name": "STEP:FEE1:151:MOTR.RBV" },
+		{ "descr": "slit_sfee_u", "name": "STEP:FEE1:152:MOTR.RBV" },
+		{ "descr": "slit_sfee_s", "name": "STEP:FEE1:153:MOTR.RBV" },
+		{ "descr": "slit_sfee_n", "name": "STEP:FEE1:154:MOTR.RBV" },
+		{ "descr": "slit_sfee_hw", "name": "SLIT:FEE1:ACTUAL_XWIDTH" },
+		{ "descr": "slit_sfee_vw", "name": "SLIT:FEE1:ACTUAL_YWIDTH" },
+		{ "descr": "slit_sfee_ho", "name": "SLIT:FEE1:ACTUAL_XCENTER" },
+		{ "descr": "slit_sfee_vo", "name": "SLIT:FEE1:ACTUAL_YCENTER" }
+	    ]
+        },
+	{
+            "SECTION": "ipm",
+            "TITLE": "IPMs",
+            "PARAMS": [
+		{ "descr": "ipm1_yd", "name": "HXX:UM6:MMS:07.RBV"},
+		{ "descr": "ipm1_xd", "name": "HXX:UM6:MMS:06.RBV"},
+		{ "descr": "ipm1_yt", "name": "HXX:UM6:MMS:05.RBV"},
+		{ "descr": "ipm2_yd", "name": "HFX:DG2:MMS:06.RBV"},
+		{ "descr": "ipm2_xd", "name": "HFX:DG2:MMS:07.RBV"},
+		{ "descr": "ipm2_yt", "name": "HFX:DG2:MMS:08.RBV"},
+		{ "descr": "ipmmono_yd", "name": "XCS:MON:MMS:30.RBV"},
+		{ "descr": "ipmmono_xd", "name": "XCS:MON:MMS:29.RBV"},
+		{ "descr": "ipmmono_yt", "name": "XCS:MON:MMS:31.RBV"},
+		{ "descr": "ipm4_yd", "name": "XCS:SB1:MMS:06.RBV"},
+		{ "descr": "ipm4_xd", "name": "XCS:SB1:MMS:07.RBV"},
+		{ "descr": "ipm4_yt", "name": "XCS:SB1:MMS:08.RBV"},
+		{ "descr": "ipm5_yd", "name": "XCS:SB2:MMS:39.RBV"},
+		{ "descr": "ipm5_xd", "name": "XCS:SB2:MMS:40.RBV"},
+		{ "descr": "ipm5_yt", "name": "XCS:SB2:MMS:41.RBV"}
+	    ]
+        },
+	{
+            "SECTION": "beamline",
+            "TITLE": "Other Beamline Devices",
+            "PARAMS": [
+		{ "descr": "yag1_y", "name": "HXX:UM6:MMS:08.RBV"},
+		{ "descr": "yag1_zoom", "name": "HXX:UM6:CLZ:01.RBV"},
+		{ "descr": "yag2_y", "name": "HFX:DG2:MMS:09.RBV"},
+		{ "descr": "yag2_zoom", "name": "HFX:DG2:CLZ:01.RBV"},
+		{ "descr": "yag3m_y", "name": "HFX:DG3:MMS:08.RBV"},
+		{ "descr": "yag3m_zoom", "name": "HFX:DG3:CLZ:01.RBV"},
+		{ "descr": "yag3_y", "name": "XCS:DG3:MMS:17.RBV"},
+		{ "descr": "yag3_zoom", "name": "XCS:DG3:CLZ:01.RBV"},
+		{ "descr": "yag4_y", "name": "XCS:SB1:MMS:09.RBV"},
+		{ "descr": "yag4_zoom", "name": "XCS:SB1:CLZ:01.RBV"},
+		{ "descr": "yag5_y", "name": "XCS:SB2:MMS:42.RBV"},
+		{ "descr": "yag5_zoom", "name": "XCS:SB2:MMS:50.RBV"},
+		{ "descr": "att_T", "name": "XCS:ATT:COM:R_CUR"},
+		{ "descr": "att_T3rd", "name": "XCS:ATT:COM:R3_CUR"},
+		{ "descr": "att_energy", "name": "XCS:ATT:COM:EDES"},
+		{ "descr": "att_E", "name": "XCS:ATT:COM:T_CALC.VALE"},
+		{ "descr": " CRL2_X", "name": "XCS:SB2:MMS:22.RBV"},
+		{ "descr": " CRL2_Y", "name": "XCS:SB2:MMS:23.RBV"},
+		{ "descr": " CRL2_Z", "name": "XCS:SB2:MMS:24.RBV"},
+		{ "descr": "LAM_X1", "name": "XCS:LAM:MMS:01.RBV"},
+		{ "descr": "LAM_X2", "name": "XCS:LAM:MMS:04.RBV"},
+		{ "descr": "LAM_Z", "name": "XCS:LAM:MMS:02.RBV"},
+		{ "descr": "LAM_Y1", "name": "XCS:LAM:MMS:03.RBV"},
+		{ "descr": "LAM_Y2", "name": "XCS:LAM:MMS:05.RBV"},
+		{ "descr": "LAM_DET_X", "name": "XCS:LAM:MMS:06.RBV"},
+		{ "descr": "LAM_DET_Y", "name": "XCS:LAM:MMS:07.RBV"},
+		{ "descr": "LAM_Theta", "name": "XCS:VARS:LAM:Theta"}
+	    ]
+	}
+    ],
+    "XPP": [
+        {
+            "SECTION": "gon",
+            "TITLE": "Goniometer Motors",
+            "PARAMS": [
+		{  "name": "XPP:GON:MMS:01.RBV", "descr": "XPP:GON:MMS:01.RBV" },
+		{  "name": "XPP:GON:MMS:02.RBV", "descr": "XPP:GON:MMS:02.RBV" },
+		{  "name": "XPP:GON:MMS:03.RBV", "descr": "XPP:GON:MMS:03.RBV" },
+		{  "name": "XPP:GON:MMS:04.RBV", "descr": "XPP:GON:MMS:04.RBV" },
+		{  "name": "XPP:GON:MMS:05.RBV", "descr": "XPP:GON:MMS:05.RBV" },
+		{  "name": "XPP:GON:MMS:06.RBV", "descr": "XPP:GON:MMS:06.RBV" },
+		{  "name": "XPP:GON:MMS:07.RBV", "descr": "XPP:GON:MMS:07.RBV" },
+		{  "name": "XPP:GON:MMS:08.RBV", "descr": "XPP:GON:MMS:08.RBV" },
+		{  "name": "XPP:GON:MMS:09.RBV", "descr": "XPP:GON:MMS:09.RBV" },
+		{  "name": "XPP:GON:MMS:10.RBV", "descr": "XPP:GON:MMS:10.RBV" },
+		{  "name": "XPP:GON:MMS:11.RBV", "descr": "XPP:GON:MMS:11.RBV" },
+		{  "name": "XPP:GON:MMS:12.RBV", "descr": "XPP:GON:MMS:12.RBV" },
+		{  "name": "XPP:GON:MMS:13.RBV", "descr": "XPP:GON:MMS:13.RBV" },
+		{  "name": "XPP:GON:MMS:14.RBV", "descr": "XPP:GON:MMS:14.RBV" },
+		{  "name": "XPP:GON:MMS:15.RBV", "descr": "XPP:GON:MMS:15.RBV" },
+		{  "name": "XPP:GON:MMS:16.RBV", "descr": "XPP:GON:MMS:16.RBV" }
+            ]
+        },
+        {
+            "PARAMS": [
+                {    "name": "XPP:ROB:POS:J1", "descr": "XPP:ROB:POS:J1" },
+                {    "name": "XPP:ROB:POS:J2", "descr": "XPP:ROB:POS:J2" },
+                {    "name": "XPP:ROB:POS:J3", "descr": "XPP:ROB:POS:J3" },
+                {    "name": "XPP:ROB:POS:J4", "descr": "XPP:ROB:POS:J4" },
+                {    "name": "XPP:ROB:POS:J5", "descr": "XPP:ROB:POS:J5" },
+                {    "name": "XPP:ROB:POS:J6", "descr": "XPP:ROB:POS:J6" },
+                {    "name": "XPP:ROB:POS:RX", "descr": "XPP:ROB:POS:RX" },
+                {    "name": "XPP:ROB:POS:RY", "descr": "XPP:ROB:POS:RY" },
+                {    "name": "XPP:ROB:POS:RZ", "descr": "XPP:ROB:POS:RZ" },
+                {    "name": "XPP:ROB:POS:X", "descr": "XPP:ROB:POS:X" },
+                {    "name": "XPP:ROB:POS:Y", "descr": "XPP:ROB:POS:Y" },
+                {    "name": "XPP:ROB:POS:Z", "descr": "XPP:ROB:POS:Z" },
+                {    "name": "XPP:ROB:POS:AZI", "descr": "XPP:ROB:POS:AZI" },
+                {    "name": "XPP:ROB:POS:ELE", "descr": "XPP:ROB:POS:ELE" },
+                {    "name": "XPP:ROB:POS:RAD", "descr": "XPP:ROB:POS:RAD" }
+            ],
+            "SECTION": "robot",
+            "TITLE": "Robot"
+        },
+        {
+            "PARAMS": [
+                {   "name": "XPP:SCAN:ISSCAN" , "descr": "XPP:SCAN:ISSCAN"  },
+                {   "name": "XPP:SCAN:SCANVAR00", "descr": "XPP:SCAN:SCANVAR00" },
+                {   "name": "XPP:SCAN:SCANVAR01", "descr": "XPP:SCAN:SCANVAR01" },
+                {   "name": "XPP:SCAN:SCANVAR02", "descr": "XPP:SCAN:SCANVAR02" },
+                {   "name": "XPP:SCAN:MIN00", "descr": "XPP:SCAN:MIN00" },
+                {   "name": "XPP:SCAN:MAX00", "descr": "XPP:SCAN:MAX00" },
+                {   "name": "XPP:SCAN:MIN01", "descr": "XPP:SCAN:MIN01" },
+                {   "name": "XPP:SCAN:MAX01", "descr": "XPP:SCAN:MAX01" },
+                {   "name": "XPP:SCAN:MIN02", "descr": "XPP:SCAN:MIN02" },
+                {   "name": "XPP:SCAN:MAX02", "descr": "XPP:SCAN:MAX02" },
+                {   "name": "XPP:SCAN:NSTEPS", "descr": "XPP:SCAN:NSTEPS" },
+                {   "name": "XPP:SCAN:NSHOTS", "descr": "XPP:SCAN:NSHOTS" },
+                {   "name": "XPP:SCAN:ISTEP", "descr": "XPP:SCAN:ISTEP" }
+            ],
+            "SECTION": "scan",
+            "TITLE": "Scan Info"
+        },
+        {
+            "PARAMS": [
+		{  "name": "HX2:SB1:IPM:TARGET", "descr": "HX2:SB1:IPM:TARGET" },
+		{  "name": "XPP:SB2:IPM:TARGET", "descr": "XPP:SB2:IPM:TARGET" },
+		{  "name": "XPP:SB3:IPM:TARGET", "descr": "XPP:SB3:IPM:TARGET" },
+		{  "name": "XPP:SB2:IPM:01:ChargeAmpRangeCH0", "descr": "XPP:SB2:IPM:01:ChargeAmpRangeCH0" },
+		{  "name": "XPP:SB3:IPM:01:ChargeAmpRangeCH0", "descr": "XPP:SB3:IPM:01:ChargeAmpRangeCH0" },
+		{  "name": "XPP:USR:IPM:01:ChargeAmpRangeCH0", "descr": "XPP:USR:IPM:01:ChargeAmpRangeCH0" },
+		{  "name": "XPP:USR:IPM:01:ChargeAmpRangeCH1", "descr": "XPP:USR:IPM:01:ChargeAmpRangeCH1" },
+		{  "name": "XPP:USR:IPM:01:ChargeAmpRangeCH2", "descr": "XPP:USR:IPM:01:ChargeAmpRangeCH2" },
+		{  "name": "XPP:USR:IPM:01:ChargeAmpRangeCH3", "descr": "XPP:USR:IPM:01:ChargeAmpRangeCH3" },
+		{  "name": "XPP:SB2:IPM:01:DiodeBias", "descr": "XPP:SB2:IPM:01:DiodeBias" },
+		{  "name": "XPP:SB3:IPM:01:DiodeBias", "descr": "XPP:SB3:IPM:01:DiodeBias" },
+		{  "name": "XPP:USR:IPM:01:DiodeBias", "descr": "XPP:USR:IPM:01:DiodeBias" },
+		{ "descr": "ipm_1_yd", "name": "HX2:SB1:MMS:06.RBV"},
+		{ "descr": "ipm_1_yd_rmp", "name": "HX2:SB1:MMS:06.RRBV"},
+		{ "descr": "ipm_1_xd", "name": "HX2:SB1:MMS:07.RBV"},
+		{ "descr": "ipm_1_xd_rmp", "name": "HX2:SB1:MMS:07.RRBV"},
+		{ "descr": "ipm_1_yt", "name": "HX2:SB1:MMS:08.RBV"},
+		{ "descr": "ipm_1_yt_rmp", "name": "HX2:SB1:MMS:08.RRBV"},
+
+		{ "descr": "ipm_2_yd", "name": "XPP:SB2:MMS:01.RBV"},
+		{ "descr": "ipm_2_yd_rmp", "name": "XPP:SB2:MMS:01.RRBV"},
+		{ "descr": "ipm_2_xd", "name": "XPP:SB2:MMS:02.RBV"},
+		{ "descr": "ipm_2_xd_rmp", "name": "XPP:SB2:MMS:02.RRBV"},
+		{ "descr": "ipm_2_yt", "name": "XPP:SB2:MMS:03.RBV"},
+		{ "descr": "ipm_2_yt_rmp", "name": "XPP:SB2:MMS:03.RRBV"},
+		{ "descr": "ipm_3_dy", "name": "XPP:SB3:MMS:11.RBV"},
+		{ "descr": "ipm_3_dx", "name": "XPP:SB3:MMS:12.RBV"},
+		{ "descr": "ipm_3_ty", "name": "XPP:SB3:MMS:13.RBV"}
+            ],
+            "SECTION": "ipm",
+            "TITLE": "IPM Settings"
+        },
+        {
+            "PARAMS": [
+		{ "name": "XPP:MON:LOM:E", "descr": "lom_E" },
+		{ "name": "XPP:MON:LOM:E1C", "descr": "lom_EC" },
+		{ "name": "XPP:MON:LOM:E1Si", "descr": "lom_ESi" },
+		{ "name": "XPP:MON:MMS:04.RBV", "descr": "XPP:MON:MMS:04.RBV" },
+		{ "name": "XPP:MON:MMS:05.RBV", "descr": "XPP:MON:MMS:05.RBV" },
+		{ "name": "XPP:MON:MMS:06.RBV", "descr": "XPP:MON:MMS:06.RBV" },
+		{ "name": "XPP:MON:MMS:07.RBV", "descr": "XPP:MON:MMS:07.RBV" },
+		{ "name": "XPP:MON:MMS:08.RBV", "descr": "XPP:MON:MMS:08.RBV" },
+		{ "name": "XPP:MON:MMS:09.RBV", "descr": "XPP:MON:MMS:09.RBV" },
+		{ "name": "XPP:MON:MMS:10.RBV", "descr": "XPP:MON:MMS:10.RBV" },
+		{ "name": "XPP:MON:MMS:11.RBV", "descr": "XPP:MON:MMS:11.RBV" },
+		{ "name": "XPP:MON:MMS:12.RBV", "descr": "XPP:MON:MMS:12.RBV" },
+		{ "name": "XPP:MON:MMS:13.RBV", "descr": "XPP:MON:MMS:13.RBV" },
+		{ "name": "XPP:MON:MMS:14.RBV", "descr": "XPP:MON:MMS:14.RBV" },
+		{ "name": "XPP:MON:MMS:15.RBV", "descr": "XPP:MON:MMS:15.RBV" },
+		{ "name": "XPP:MON:MMS:16.RBV", "descr": "XPP:MON:MMS:16.RBV" },
+		{ "name": "XPP:MON:MMS:17.RBV", "descr": "XPP:MON:MMS:17.RBV" },
+		{ "name": "XPP:MON:MMS:18.RBV", "descr": "XPP:MON:MMS:18.RBV" },
+		{ "name": "XPP:MON:MMS:19.RBV", "descr": "XPP:MON:MMS:19.RBV" },
+		{ "name": "XPP:MON:MMS:20.RBV", "descr": "XPP:MON:MMS:20.RBV" },
+		{ "name": "XPP:MON:MMS:22.RBV", "descr": "XPP:MON:MMS:22.RBV" },
+		{ "name": "XPP:MON:MMS:23.RBV", "descr": "XPP:MON:MMS:23.RBV" },
+		{ "name": "XPP:MON:CLZ:01.RBV", "descr": "XPP:MON:CLZ:01.RBV" },
+		{ "name": "XPP:MON:MMS:04.VAL", "descr": "XPP:MON:MMS:04.RBV" },
+		{ "name": "XPP:MON:MMS:05.VAL", "descr": "XPP:MON:MMS:05.RBV" },
+		{ "name": "XPP:MON:MMS:06.VAL", "descr": "XPP:MON:MMS:06.RBV" },
+		{ "name": "XPP:MON:MMS:07.VAL", "descr": "XPP:MON:MMS:07.RBV" },
+		{ "name": "XPP:MON:MMS:08.VAL", "descr": "XPP:MON:MMS:08.RBV" },
+		{ "name": "XPP:MON:MMS:09.VAL", "descr": "XPP:MON:MMS:09.RBV" },
+		{ "name": "XPP:MON:MMS:10.VAL", "descr": "XPP:MON:MMS:10.RBV" },
+		{ "name": "XPP:MON:MMS:11.VAL", "descr": "XPP:MON:MMS:11.RBV" },
+		{ "name": "XPP:MON:MMS:12.VAL", "descr": "XPP:MON:MMS:12.RBV" },
+		{ "name": "XPP:MON:MMS:13.VAL", "descr": "XPP:MON:MMS:13.RBV" },
+		{ "name": "XPP:MON:MMS:14.VAL", "descr": "XPP:MON:MMS:14.RBV" },
+		{ "name": "XPP:USER:CCM:E", "descr": "ccm_E" },
+		{ "name": "XPP:USER:CCM:Theta0", "descr": "ccm_Theta0" },
+		{ "name": "XPP:MON:MPZ:07A:POSITIONGET", "descr": "ccm alio" },
+		{ "name": "XPP:MON:MPZ:08:POSITIONGET", "descr": "ccm PI" }
+            ],
+            "SECTION": "mono",
+            "TITLE": "Monochromator Variables"
+        },
+        {
+            "PARAMS": [
+		{ "name": "HX2:UVD:PIP:01:VMON", "descr": "PIP_HX2_UVD" },
+		{ "name": "HX2:DVD:PIP:01:VMON", "descr": "PIP_HX2_DVD" },
+		{ "name": "HX3:MON:PIP:01:VMON", "descr": "PIP_MON_01" },
+		{ "name": "HX3:MON:PIP:02:VMON", "descr": "PIP_MON_02" },
+		{ "name": "HX3:MON:PIP:03:VMON", "descr": "PIP_MON_03" },
+		{ "name": "XPP:SB3:PIP:01:VMON", "descr": "PIP_SB3_01" },
+		{ "name": "HX3:DVD:PIP:01:VMON", "descr": "PIP_HX3_DVD_01" },
+
+		{ "name": "HX2:UVD:GCC:01:PMON", "descr": "GCC_HX2_UVD" },
+		{ "name": "HX2:DVD:GCC:01:PMON", "descr": "GCC_HX2_DVD" },
+		{ "name": "HX3:MON:GCC:01:PMON", "descr": "GCC_MON_01" },
+		{ "name": "HX3:MON:GCC:02:PMON", "descr": "GCC_MON_02" },
+		{ "name": "HX3:MON:GCC:03:PMON", "descr": "GCC_MON_03" },
+		{ "name": "XPP:SB2:GCC:01:PMON", "descr": "GCC_SB2_01" },
+		{ "name": "XPP:SB3:GCC:01:PMON", "descr": "GCC_SB3_01" },
+		{ "name": "XPP:SB3:GCC:02:PMON", "descr": "GCC_SB3_02" },
+		{ "name": "HX3:DVD:GCC:01:PMON", "descr": "GCC_HX3_DVD_01" },
+
+		{ "name": "HX2:UVD:GPI:01:PMON", "descr": "GPI_HX2_UVD" },
+		{ "name": "HX2:DVD:GPI:01:PMON", "descr": "GPI_HX2_DVD" },
+		{ "name": "HX3:MON:GPI:01:PMON", "descr": "GPI_MON_01" },
+		{ "name": "HX3:MON:GPI:02:PMON", "descr": "GPI_MON_02" },
+		{ "name": "HX3:MON:GPI:03:PMON", "descr": "GPI_MON_03" },
+		{ "name": "XPP:SB2:GPI:01:PMON", "descr": "GPI_SB2_01" },
+		{ "name": "XPP:SB3:GPI:01:PMON", "descr": "GPI_SB3_01" },
+		{ "name": "XPP:SB3:GPI:02:PMON", "descr": "GPI_SB3_02" },
+		{ "name": "HX3:DVD:GPI:01:PMON", "descr": "GPI_HX3_DVD_01" }
+	    ],
+            "SECTION": "vacuum",
+            "TITLE": "Beamline Vacuum devices"
+        },
+        {
+            "PARAMS": [
+		{ "descr": "slit_s1_s", "name": "HX2:SB1:MMS:02.RBV" },
+		{ "descr": "slit_s1_n", "name": "HX2:SB1:MMS:03.RBV" },
+		{ "descr": "slit_s1_u", "name": "HX2:SB1:MMS:04.RBV" },
+		{ "descr": "slit_s1_d", "name": "HX2:SB1:MMS:05.RBV" },
+		{ "descr": "slit_s1_hw", "name": "HX2:SB1:JAWS:ACTUAL_XWIDTH" },
+		{ "descr": "slit_s1_vw", "name": "HX2:SB1:JAWS:ACTUAL_YWIDTH" },
+		{ "descr": "slit_s1_ho", "name": "HX2:SB1:JAWS:ACTUAL_XCENTER" },
+		{ "descr": "slit_s1_vo", "name": "HX2:SB1:JAWS:ACTUAL_YCENTER" },
+
+		{ "descr": "slit_s2_s", "name": "XPP:SB2:MMS:05.RBV" },
+		{ "descr": "slit_s2_n", "name": "XPP:SB2:MMS:06.RBV" },
+		{ "descr": "slit_s2_u", "name": "XPP:SB2:MMS:07.RBV" },
+		{ "descr": "slit_s2_d", "name": "XPP:SB2:MMS:08.RBV" },
+		{ "descr": "slit_s2_hw", "name": "XPP:SB2L:JAWS:ACTUAL_XWIDTH" },
+		{ "descr": "slit_s2_vw", "name": "XPP:SB2L:JAWS:ACTUAL_YWIDTH" },
+		{ "descr": "slit_s2_ho", "name": "XPP:SB2L:JAWS:ACTUAL_XCENTER" },
+		{ "descr": "slit_s2_vo", "name": "XPP:SB2L:JAWS:ACTUAL_YCENTER" },
+
+		{ "descr": "slit_s3_s", "name": "XPP:SB2:MMS:09.RBV" },
+		{ "descr": "slit_s3_n", "name": "XPP:SB2:MMS:10.RBV" },
+		{ "descr": "slit_s3_u", "name": "XPP:SB2:MMS:11.RBV" },
+		{ "descr": "slit_s3_d", "name": "XPP:SB2:MMS:12.RBV" },
+		{ "descr": "slit_s3_hw", "name": "XPP:SB2H:JAWS:ACTUAL_XWIDTH" },
+		{ "descr": "slit_s3_vw", "name": "XPP:SB2H:JAWS:ACTUAL_YWIDTH" },
+		{ "descr": "slit_s3_ho", "name": "XPP:SB2H:JAWS:ACTUAL_XCENTER" },
+		{ "descr": "slit_s3_vo", "name": "XPP:SB2H:JAWS:ACTUAL_YCENTER" },
+
+		{ "descr": "slit_s4_s", "name": "XPP:SB3:MMS:07.RBV" },
+		{ "descr": "slit_s4_n", "name": "XPP:SB3:MMS:08.RBV" },
+		{ "descr": "slit_s4_u", "name": "XPP:SB3:MMS:09.RBV" },
+		{ "descr": "slit_s4_d", "name": "XPP:SB3:MMS:10.RBV" },
+		{ "descr": "slit_s4_hw", "name": "XPP:SB3:JAWS:ACTUAL_XWIDTH" },
+		{ "descr": "slit_s4_vw", "name": "XPP:SB3:JAWS:ACTUAL_YWIDTH" },
+		{ "descr": "slit_s4_ho", "name": "XPP:SB3:JAWS:ACTUAL_XCENTER" },
+		{ "descr": "slit_s4_vo", "name": "XPP:SB3:JAWS:ACTUAL_YCENTER" },
+
+		{ "descr": "slit_sfee_d", "name": "STEP:FEE1:151:MOTR.RBV" },
+		{ "descr": "slit_sfee_u", "name": "STEP:FEE1:152:MOTR.RBV" },
+		{ "descr": "slit_sfee_s", "name": "STEP:FEE1:153:MOTR.RBV" },
+		{ "descr": "slit_sfee_n", "name": "STEP:FEE1:154:MOTR.RBV" },
+		{ "descr": "slit_sfee_hw", "name": "SLIT:FEE1:ACTUAL_XWIDTH" },
+		{ "descr": "slit_sfee_vw", "name": "SLIT:FEE1:ACTUAL_YWIDTH" },
+		{ "descr": "slit_sfee_ho", "name": "SLIT:FEE1:ACTUAL_XCENTER" },
+		{ "descr": "slit_sfee_vo", "name": "SLIT:FEE1:ACTUAL_YCENTER" }
+	    ],
+            "SECTION": "slits",
+            "TITLE": "JJ slits on beamline"
+        },
+        {
+            "PARAMS": [
+		{ "descr": "las_FS3_shifter", "name": "XPP:USER:FS3:T0_SHIFTER"},
+		{ "descr": "las_drift_monitor", "name": "XPP:USER:LAS:T0_MONITOR"},
+		{ "descr": "lxe", "name": "XPP:USER:LAS:E_PULSE"},
+		{ "descr": "lxe_laserLeakage", "name": "XPP:USER:LAS:E_LEAK"},
+		{ "descr": "lxe_laserMaxEnergy", "name": "XPP:USER:LAS:E0"},
+		{ "descr": "ire", "name": "XPP:USER:LAS:E_PULSE2"},
+		{ "descr": "ire_laserLeakage", "name": "XPP:USER:LAS:E_LEAK2"},
+		{ "descr": "ire_laserMaxEnergy", "name": "XPP:USER:LAS:E02"},
+		{ "descr": "las_drift_correction", "name": "LAS:FS3:VIT:matlab:04"},
+		{ "descr": "las_MPA_timing", "name": "LAS:XPP:DDG:01:aDelayAO"},
+
+		{ "descr": "las_TIME_DELAY", "name": "XPP:USER:LAS:TIME_DELAY"},
+		{ "descr": "las_FS3_MIN", "name": "XPP:USER:LAS:FS3_MI"},
+		{ "descr": "las_FS3_MAX", "name": "XPP:USER:LAS:FS3_MAX"},
+		{ "descr": "las_FS3_EVR0_OSC", "name": "XPP:USER:LAS:EVR0_OSC"},
+		{ "descr": "las_FS3_EVR0_GATE", "name": "XPP:USER:LAS:EVR0_GATE"},
+		{ "descr": "las_FS3_EVR0_SDG0", "name": "XPP:USER:LAS:SDG0"},
+
+		{ "descr": "las_Target_Time_ns", "name": "LAS:FS3:VIT:FS_TGT_TIME"},
+		{ "descr": "las_Counter_Readback_ns", "name": "LAS:FS3:VIT:FS_CTR_TIME"},
+		{ "descr": "las_evr_delay", "name": "LAS:R54:EVR:27:CTRL.DG0D"},
+		{ "descr": "las_EVR_prescaler", "name": "LAS:R54:EVR:27:CTRL.DG0C"},
+		{ "descr": "las_Gate_evr_delay", "name": "LAS:R54:EVR:27:CTRL.DG1D"},
+		{ "descr": "las_Gate_evr_prescaler", "name": "LAS:R54:EVR:27:CTRL.DG1C"},
+		{ "descr": "td_tot", "name": "XPP:USER:LAS:TIME_DELAY"},
+		{ "descr": "las_fs3_t0", "name": "XPP:USER:FS3:T0_SHIFTER"},
+		{ "descr": "las_evr0_laser", "name": "XPP:USER:LAS:EVR0_OSC"},
+		{ "descr": "las_evr0_gate", "name": "XPP:USER:LAS:EVR0_GATE"},
+		{ "descr": "lxt_vitara", "name": "XPP:USER:VIT:TD"},
+		{ "descr": "lxt", "name": "XPP:USER:LXT"},
+		{ "descr": "lxt_ttc", "name": "XPP:USER:LXTTC"},
+		{ "descr": "las_xpplshut", "name": "XPP:USR:ao1:14"},
+		{ "descr": "las_xppcshut", "name": "XPP:USR:ao1:15"},
+
+		{ "descr": "las_transport_tube_shutter1_open", "name": "PLC:XPP:LSS:C114I"},
+		{ "descr": "las_transport_tube_shutter2_open", "name": "PLC:XPP:LSS:C116I"},
+		{ "descr": "las_exit_port1_shutter1_open", "name": "PLC:XPP:LSS:C120I"},
+		{ "descr": "las_exit_port1_shutter2_open", "name": "PLC:XPP:LSS:C122I"},
+		{ "descr": "las_exit_port2_shutter1_open", "name": "PLC:XPP:LSS:C124I"},
+		{ "descr": "las_exit_port2_shutter2_open", "name": "PLC:XPP:LSS:C126I"},
+
+		{ "descr": "las_comp_wp", "name": "XPP:LAS:MMN:01.RBV"},
+		{ "descr": "las_pol_wp", "name": "XPP:LAS:MMN:02.RBV"},
+		{ "descr": "las_compressor", "name": "XPP:LAS:MMN:03.RBV"},
+		{ "descr": "las_delayNew", "name": "XPP:LAS:MMN:04.RBV"},
+		{ "descr": "las_lensv", "name": "XPP:LAS:MMN:05.RBV"},
+		{ "descr": "las_lensh", "name": "XPP:LAS:MMN:06.RBV"},
+		{ "descr": "las_lensf", "name": "XPP:LAS:MMN:08.RBV"},
+
+		{ "descr": "las_opa_wp", "name": "XPP:LAS:MMN:09.RBV"},
+		{ "descr": "las_opa_comp", "name": "XPP:LAS:MMN:10.RBV"},
+		{ "descr": "las_tt_wp", "name": "XPP:LAS:MMN:11.RBV"},
+		{ "descr": "las_tt_comp", "name": "XPP:LAS:MMN:12.RBV"},
+		{ "descr": "las_tt_lensh", "name": "XPP:LAS:MMN:13.RBV"},
+		{ "descr": "las_tt_lensv", "name": "XPP:LAS:MMN:14.RBV"},
+		{ "descr": "las_tt_lensf", "name": "XPP:LAS:MMN:15.RBV"},
+		{ "descr": "las_tt_delay", "name": "XPP:LAS:MMN:16.RBV"}
+	    ],
+            "SECTION": "laser",
+            "TITLE": "Laser variables"
+        },
+        {
+            "PARAMS": [
+		{ "descr": "att_E", "name": "XPP:ATT:COM:T_CALC.VALE"},
+		{ "descr": "att_T", "name": "XPP:ATT:COM:R_CUR"},
+		{ "descr": "att_T3rd", "name": "XPP:ATT:COM:R3_CUR"},
+
+		{ "descr": "att_10", "name": "XPP:SB2:MMS:17.RBV"},
+		{ "descr": "att_9", "name": "XPP:SB2:MMS:18.RBV"},
+		{ "descr": "att_8", "name": "XPP:SB2:MMS:19.RBV"},
+		{ "descr": "att_7", "name": "XPP:SB2:MMS:20.RBV"},
+		{ "descr": "att_6", "name": "XPP:SB2:MMS:21.RBV"},
+		{ "descr": "att_5", "name": "XPP:SB2:MMS:22.RBV"},
+		{ "descr": "att_4", "name": "XPP:SB2:MMS:23.RBV"},
+		{ "descr": "att_3", "name": "XPP:SB2:MMS:24.RBV"},
+		{ "descr": "att_2", "name": "XPP:SB2:MMS:25.RBV"},
+		{ "descr": "att_1", "name": "XPP:SB2:MMS:26.RBV"},
+		{ "descr": "att_mirror", "name": "XPP:SB2:MMS:27.RBV"},
+
+		{ "descr": "tt_ty", "name": "XPP:SB3:MMS:15.RBV"},
+		{ "descr": "yag_yag2_y", "name": "XPP:SB3:MMS:14.RBV"},
+
+		{ "descr": "yag_yag2_zoom", "name": "XPP:SB3:CLZ:01.RBV"},
+		{ "descr": "yag_yag2_focus", "name": "XPP:SB3:CLF:01.RBV"},
+
+		{ "descr": "yag_yag1_y", "name": "HX2:SB1:MMS:09.RBV"},
+		{ "descr": "yag_yag1_zoom", "name": "HX2:SB1:CLZ:01.RBV"},
+
+		{ "descr": "yag_yaglom_zoom", "name": "XPP:MON:CLZ:01.RBV"},
+
+		{ "descr": "crl_Be_xpos", "name": "XPP:SB2:MMS:13.RBV"},
+		{ "descr": "crl_Be_ypos", "name": "XPP:SB2:MMS:14.RBV"},
+		{ "descr": "crl_Be_zpos", "name": "XPP:SB2:MMS:15.RBV"},
+
+		{ "descr": "hrm_1_rot", "name": "XPP:SB3:MMS:01.RBV"},
+		{ "descr": "hrm_1_x", "name": "XPP:SB3:MMS:02.RBV"},
+		{ "descr": "hrm_1_y", "name": "XPP:SB3:MMS:03.RBV"},
+		{ "descr": "hrm_2_rot", "name": "XPP:SB3:MMS:04.RBV"},
+		{ "descr": "hrm_2_x", "name": "XPP:SB3:MMS:05.RBV"},
+		{ "descr": "hrm_2_y", "name": "XPP:SB3:MMS:06.RBV"}
+	    ],
+            "SECTION": "beamline",
+            "TITLE": "Beamline Variable"
         }
     ]
 }
