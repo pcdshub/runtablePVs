@@ -191,6 +191,8 @@
 		{ "name": "USEG:UNDS:4650:KAct" },
 		{ "name": "PHAS:UNDS:4670:DPHI" },
 		{ "name": "USEG:UNDS:4650:DSKAct" },
+		{ "name": "USEG:UNDS:4750:KAct" },
+		{ "name": "USEG:UNDS:4750:DSKAct" },
 		{ "name": "YCOR:UNDS:3580:BACT" },
 		{ "name": "YCOR:UNDS:3680:BACT" },
 		{ "name": "YCOR:UNDS:3780:BACT" },
