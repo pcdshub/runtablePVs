@@ -21,3 +21,5 @@ with open("sections.json", 'r') as f:
     if len(defns) < 2:
         print("We should have at least one instrument")
         sys.exit(-1)
+
+print("All ok")
