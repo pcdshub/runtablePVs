@@ -7369,7 +7369,7 @@
     },
     {
       "SECTION": "OPTICS",
-      "TITLE": "ics",
+      "TITLE": "optics",
       "PARAMS": [
         {
           "name": "MR2K4:KBO:MMS:X.RBV"
